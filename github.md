@@ -1,7 +1,7 @@
 # Dicas de Git e Github para Linux
 
 
-* [Se você ainda não usou/instalou git](https://github.com/padoinedson/tips/blob/main/git.md)
+* [Se você ainda não usou/instalou git visite](https://github.com/padoinedson/tips/blob/main/git.md)
 
 
 
@@ -108,15 +108,15 @@ $ git merge teste-de-funcionlidade
 
 
 ## trocar https por ssh
-* [Link] (https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
+* [Link](https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
 
 
 
 
 ## adicionar colaboradores
-* [Link] (https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+* [Link](https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
 
 
 
 ### site 
-* [Link] (http://git-scm.com/)
+* [Link](http://git-scm.com/)
