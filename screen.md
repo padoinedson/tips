@@ -7,9 +7,9 @@ $ sudo apt install screen
 
 
 
-## configuração permanente no arquivo `.screenrc`  `Tutorial`
+## configuração permanente no arquivo ".screenrc"  
 
-$ nano ~/.screenrc
+$ nano ~/.screenrc   -->  `edite o arquivo`
 
 	shell -${SHELL}
 
@@ -25,7 +25,6 @@ $ nano ~/.screenrc
 
 
 ## utilização 1
-
 
 $ screen 
 
