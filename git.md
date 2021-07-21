@@ -2,6 +2,7 @@
 
 
 
+
 ## instalar o GIT
 
 $ sudo apt install git
@@ -26,7 +27,7 @@ $ ls -la
 
 $ git config --list
 
-$ git config --global user.name "seu_nome"
+$ git config --global user.name "seu_nome_no_github"
 $ git config --global user.email seu_nome@unijui.edu.br
 
 $ git config --list
