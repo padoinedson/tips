@@ -129,7 +129,7 @@ $ git rm a.txt
 
 
 ### Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-* [Link] (http://git-scm.com/)
+* [Link](http://git-scm.com/)
 
 
 ## padoin@
