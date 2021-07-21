@@ -10,6 +10,7 @@ $ sudo apt install screen
 ## configuração permanente no arquivo ".screenrc"  
 
 * editar o arquivo `.screenrc` por exemplo:
+
 $ nano ~/.screenrc  
 
 	shell -${SHELL}
@@ -31,19 +32,19 @@ $ screen
 
 		Ctrl+a c  -> novo shell
 
-		Ctrl+a nº  -> troca de shellscreen	
+		Ctrl+a nº -> troca de shellscreen	
 
 		Ctrl+a d  -> fechar screen
 
-		Ctrl+a  ? -> help
+		Ctrl+a ?  -> help
 
-		exit -> para sair o screen
+		exit      -> para sair o screen
 
 
 
 ## utilização 2
 
-$ screen -r -> para recuperar a tela onde estava 
+$ screen -r   -> para recuperar a tela onde estava 
 
 $ screen -ls  -> Listando as "janelas" criadas pelo screen
 
