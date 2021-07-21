@@ -44,13 +44,13 @@ $ git push -u origin main
 ## alterando arquivos
 
  
-$ echo "# pp2021" >> README.md
+$ echo "# pp2021" >> b.c
 
 $ git diff
 
-$ git add README.md 
+$ git add b.c 
 
-$ git commit -m "alterado c.c"
+$ git commit -m "alterado b.c"
 
 $ git push -u origin main
 
@@ -79,7 +79,6 @@ $ git push -u origin teste-de-funcionlidade
 
 $ git checkout main
 
-trabalha
 
 $ git checkout teste-de-funcionlidade
 
@@ -88,8 +87,8 @@ $ git checkout teste-de-funcionlidade
 ------------------------------------------------------------
 ## merge
 
-estar trabalhando no main
-$ git checkout main
+
+$ git checkout main  -> estar trabalhando no main
 
 $ git merge teste-de-funcionlidade
 
