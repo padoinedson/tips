@@ -95,3 +95,31 @@ $ git merge teste-de-funcionlidade
 
 ### Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 * [Link] (http://git-scm.com/)
+
+
+
+
+
+* [Adicionar colaboradores]
+https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
+
+
+* [Adicionar ssh]
+
+
+https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh
+
+
+
+
+ssh-keygen -t ed25519 -C "padoinedson@github.com"
+
+
+$ ssh-add ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+ssh -T padoinedson@github.com
+
+
+
+
+
