@@ -1,4 +1,5 @@
 # tips
 
-Este repositório possui algumas "dicas" para configuração e utilização de serviçoes.
+## Este repositório possui algumas "dicas" de configuração e utilização de serviços.
+
 
