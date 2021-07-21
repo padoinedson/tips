@@ -100,14 +100,15 @@ $ git merge teste-de-funcionlidade
 
 
 
-* [Adicionar colaboradores]
-https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository
+## adicionar colaboradores
+(https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
 
 
-* [Adicionar ssh]
+## adicionar ssh
 
 
-https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh
+## adicionar https ssh]
+(https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
 
 
 
