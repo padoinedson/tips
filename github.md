@@ -2,7 +2,7 @@
 
 
 
-------------------------------------------------------------
+
 ## clonar um projeto remoto
 
 $ git clone https://github.com/padoinedson/tips.git
@@ -10,21 +10,21 @@ $ git clone https://github.com/padoinedson/tips.git
 
 
 
-------------------------------------------------------------
+
 ## list servidor remoto
 
 $ git remote -v
 
 
 
-------------------------------------------------------------
+
 ## copiar as modificações do servidor para o repositório local
 
 $ git pull
 
 
 
-------------------------------------------------------------
+
 ## adicionando arquivo
  
 $ echo "#include" >> a.c
@@ -39,7 +39,7 @@ $ git push -u origin main
 
 
 
-------------------------------------------------------------
+
 ## alterando arquivos
 
  
@@ -57,7 +57,7 @@ $ git push -u origin main
 
 
 
-------------------------------------------------------------
+
 ## criar um branch
 
 
@@ -73,7 +73,7 @@ $ git commit -m "alterado d.c"
 $ git push -u origin teste-de-funcionlidade
 
 
-------------------------------------------------------------
+
 ## trocar de branch
 
 $ git checkout main
@@ -83,7 +83,7 @@ $ git checkout teste-de-funcionlidade
 
 
 
-------------------------------------------------------------
+
 ## merge
 
 
@@ -93,9 +93,6 @@ $ git merge teste-de-funcionlidade
 
 
 
-### Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-* [Link] (http://git-scm.com/)
-
 
 
 
@@ -103,15 +100,20 @@ $ git merge teste-de-funcionlidade
 
 
 ## adicionar ssh
-https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
+* [Link] https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
 
 
 
-## trocar https ssh]
-(https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
+## trocar https por ssh
+* [Link] (https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
 
 
 
 
 ## adicionar colaboradores
-(https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+* [Link] (https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
+
+
+
+### site 
+* [Link] (http://git-scm.com/)
