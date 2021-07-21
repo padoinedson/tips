@@ -3,7 +3,7 @@
 
 
 
-
+------------------------------------------------------------
 ## clonar um projeto remoto
 
 $ git clone https://github.com/padoinedson/tips.git
@@ -11,21 +11,21 @@ $ git clone https://github.com/padoinedson/tips.git
 
 
 
-
-
+------------------------------------------------------------
 ## list servidor remoto
 
 $ git remote -v
 
 
 
+------------------------------------------------------------
 ## copiar as modificações do servidor para o repositório local
 
 $ git pull
 
 
 
-
+------------------------------------------------------------
 ## adicionando arquivo
  
 $ echo "#include" >> a.c
@@ -41,11 +41,9 @@ $ git push -u origin main
 
 
 ------------------------------------------------------------
-alterando arquivos
-------------------------------------------------------------
+## alterando arquivos
+
  
-
-
 $ echo "# pp2021" >> README.md
 
 $ git diff
@@ -60,9 +58,9 @@ $ git push -u origin main
 
 
 
-++++++++++++++++++++++++++++++++++++++++++++
-branch
-++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------
+## criar um branch
+
 
 $ git checkout -b "teste-de-funcionlidade"
 
@@ -77,8 +75,8 @@ $ git push -u origin teste-de-funcionlidade
 
 
 ------------------------------------------------------------
-trocar de branch
-------------------------------------------------------------
+## trocar de branch
+
 $ git checkout main
 
 trabalha
@@ -87,13 +85,10 @@ $ git checkout teste-de-funcionlidade
 
 
 
+------------------------------------------------------------
+## merge
 
-
-++++++++++++++++++++++++++++++++++++++++++++
-branch
-++++++++++++++++++++++++++++++++++++++++++++
-
-deve estar trabalhando no main
+estar trabalhando no main
 $ git checkout main
 
 $ $ git merge teste-de-funcionlidade
