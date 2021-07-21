@@ -1,26 +1,33 @@
-# Dicas de Git e Github para Linux
+# Dicas de screen para Linux
+
+
 
 ## instalação
 $ sudo apt install screen
 
 
 
-## configuração permanente no arquivo .screenrc 
+## configuração permanente no arquivo `.screenrc'`
 
 $ nano ~/.screenrc
+
 	shell -${SHELL}
+
 	caption always "%n(%t) : %c"
+
 	defscrollback 1024
+
 	startup_message off
+
 	hardstatus on
+
 	hardstatus alwayslastline
 
 
 ## utilização 1
 
 
-	$ screen 
-
+$ screen 
 
 		Ctrl+a c  -> novo shell
 
@@ -36,9 +43,9 @@ $ nano ~/.screenrc
 
 ## utilização 2
 
-	$ screen -r -> para recuperar a tela onde estava 
+$ screen -r -> para recuperar a tela onde estava 
 
-	$ screen -ls  -> Listando as "janelas" criadas pelo screen
+$ screen -ls  -> Listando as "janelas" criadas pelo screen
 
 
 
@@ -47,5 +54,4 @@ $ nano ~/.screenrc
 
 		Ctrl+a : 
 		hardstatus alwayslastline "%c %w" 
-
 
