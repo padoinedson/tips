@@ -1,7 +1,8 @@
 # Dicas de Git e Github para Linux
 
 
-* [Se você ainda não usou/instalou git visite](https://github.com/padoinedson/tips/blob/main/git.md)
+Se você ainda não usou/instalou git visite:
+* [Link](https://github.com/padoinedson/tips/blob/main/git.md)
 
 
 
@@ -103,7 +104,7 @@ $ git merge teste-de-funcionlidade
 
 
 ## adicionar ssh
-* [Link] https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
+* [Link](https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 
 
