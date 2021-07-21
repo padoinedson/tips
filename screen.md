@@ -9,7 +9,7 @@ $ sudo apt install screen
 
 ## configuração permanente no arquivo ".screenrc"  
 
-$ nano ~/.screenrc   -->  `edite o arquivo`
+$ nano ~/.screenrc   -->  edite o arquivo
 
 	shell -${SHELL}
 
