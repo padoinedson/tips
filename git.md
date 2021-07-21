@@ -1,7 +1,4 @@
-# Dicas de Git e Github para Linux
-
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-* [Link] (http://git-scm.com/)
+# Dicas de Git para Linux
 
 
 
@@ -86,3 +83,50 @@ $ git commit -a -m "segundo commit"
 $ git status
 
 $ git log
+
+
+
+## recuperar arquivo do último commit
+
+$ echo "Chile" >> a.txt 
+
+$ cat a.txt
+
+$ git status
+
+$ git diff
+
+$ git checkout -- a.txt
+
+$ git diff
+
+$ cat a.txt
+
+
+
+## recuperar versão antiga 
+ 
+
+$ git log
+
+$ cat a.txt
+
+$ git reset --hard <numero>
+
+$ cat a.txt
+
+
+
+
+
+## remover arquivo do index
+
+$ git rm a.txt
+
+
+
+
+
+
+Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+* [Link] (http://git-scm.com/)
