@@ -100,27 +100,18 @@ $ git merge teste-de-funcionlidade
 
 
 
-## adicionar colaboradores
-(https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
 
 
 ## adicionar ssh
+https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
 
 
-## adicionar https ssh]
+
+## trocar https ssh]
 (https://docs.github.com/pt/github/getting-started-with-github/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh)
 
 
 
 
-ssh-keygen -t ed25519 -C "padoinedson@github.com"
-
-
-$ ssh-add ~/.ssh/id_ed25519
-eval "$(ssh-agent -s)"
-ssh -T padoinedson@github.com
-
-
-
-
-
+## adicionar colaboradores
+(https://docs.github.com/pt/github/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)
