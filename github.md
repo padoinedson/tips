@@ -1,6 +1,9 @@
 # Dicas de Git e Github para Linux
 
 
+* [Se você ainda não usou/instalou git](https://github.com/padoinedson/tips/blob/main/git.md)
+
+
 
 
 ## clonar um projeto remoto
