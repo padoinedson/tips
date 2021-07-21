@@ -32,21 +32,22 @@ $ screen
 
 		Ctrl+a c  -> novo shell
 
-		Ctrl+a nº -> troca de shellscreen	
+		Ctrl+a nº -> trocar entre shell	
 
-		Ctrl+a d  -> fechar screen
+		exit      -> fechar um shell 
 
 		Ctrl+a ?  -> help
 
-		exit      -> para sair o screen
+		Ctrl+a d  -> sair do screen
+
 
 
 
 ## utilização 2
 
-$ screen -r   -> para recuperar a tela onde estava 
+$ screen -r   	   -> para recuperar a screem - retornar onde estava 
 
-$ screen -ls  -> Listando as "janelas" criadas pelo screen
+$ screen -ls       -> Listando as "janelas" criadas pelo screen
 
 
 
