@@ -57,3 +57,6 @@ $ screen -ls       -> Listando as "janelas" criadas pelo screen
 		Ctrl+a : 
 		hardstatus alwayslastline "%c %w" 
 
+
+
+* padoin@unijui.edu.br - 2021
