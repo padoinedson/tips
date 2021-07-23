@@ -123,4 +123,7 @@ $ git merge teste-de-funcionlidade
 * [Link](http://git-scm.com/)
 
 
-* padoin@unijui.edu.br - 2021
+## Dicas github
+
+Padoin, Edson Luiz
+padoin@unijui.edu.br

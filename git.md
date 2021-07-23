@@ -132,7 +132,7 @@ $ git rm a.txt
 * [Link](http://git-scm.com/)
 
 
-##Dicas
-* git
+## Dicas git
+
 Padoin, Edson Luiz
 padoin@unijui.edu.br

@@ -59,4 +59,7 @@ $ screen -ls       -> Listando as "janelas" criadas pelo screen
 
 
 
-* padoin@unijui.edu.br - 2021
+## Dicas screen
+
+Padoin, Edson Luiz
+padoin@unijui.edu.br
