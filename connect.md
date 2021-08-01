@@ -5,9 +5,11 @@
 
 https://remoto.unijui.edu.br/
 
+
 ## login
 
 * para efetuar o login utilize: o login do portal (usuário sem o @sou.unijui.edu.br e senha)
+
 
 ## acesso as máquinas
 
