@@ -5,7 +5,7 @@
 
 
 ## instalação
-$ sudo apt install screen
+$ sudo apt install `screen`
 
 
 
@@ -20,19 +20,15 @@ $ nano ~/.screenrc
 > 	startup_message off  
 > 	hardstatus on  
 > 	hardstatus alwayslastline
-
+>
 ## utilização 1
 
 $ screen 
 
->		Ctrl+a c  -> novo shell
-
+> 		Ctrl+a c  -> novo shell
 > 		Ctrl+a nº -> trocar entre shell	
-
-> 		exit      -> fechar um shell 
-
+> 		Ctrl+d ou exit      -> fechar um shell 
 > 		Ctrl+a ?  -> help
-
 > 		Ctrl+a d  -> sair do screen
 
 

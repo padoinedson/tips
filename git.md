@@ -5,7 +5,7 @@
 
 ## instalar o GIT
 
-$ sudo apt install git
+$ sudo apt install `git`
 
 
 ## criar um diretorio e entrar
@@ -29,7 +29,7 @@ $ git config --list
 
 $ git config --global user.name "seu_nome_no_github"
 
-$ git config --global user.email seu_nome@unijui.edu.br
+$ git config --global user.email seu_email@no_github
 
 $ git config --list
 
