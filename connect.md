@@ -16,9 +16,9 @@ selecionar uma das máquinas disponíveis
 
 * se você ainda não criou um usuário utilize
 
-	login as: pp2021
+	-> login as: pp2021
 
-	password: <informado_pelo_prof>
+	-> password: <informado_pelo_prof>
 
 * crie um usuário
 
@@ -28,9 +28,9 @@ selecionar uma das máquinas disponíveis
 
 * para efetuar o login utilize
 
-	login as: <seu_nome>
-		
-	password: <sua_senha>
+	-> login as: <seu_nome>
+
+	-> password: <sua_senha>
 
 
 
