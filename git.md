@@ -28,6 +28,7 @@ $ ls -la
 $ git config --list
 
 $ git config --global user.name "seu_nome_no_github"
+
 $ git config --global user.email seu_nome@unijui.edu.br
 
 $ git config --list
@@ -135,5 +136,9 @@ $ git rm a.txt
 ## Dicas git
 
 Padoin, Edson Luiz
+<<<<<<< HEAD
 
 padoin@unijui.edu.br
+=======
+padoin@unijui.edu.br
+>>>>>>> 012914513712bcd452fc8fcbbfe4d76eb2b8b1d1
