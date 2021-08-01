@@ -14,21 +14,22 @@ https://remoto.unijui.edu.br/
 
 selecionar uma das máquinas disponíveis
 
-* para efetuar o 'primeiro' login utilize
+* se você ainda não criou um usuário utilize
 
 	login as: pp2021
 	password: <informado_pelo_prof>
 
-* criar uma conta
+* crie um usuário
 
 	$ sudo adduser <seu_nome>
 
 	$ sudo usermod -a -G sudo <seu_nome>
 
-* para efetuar o  login utilize
+* para efetuar o login utilize
 
 	login as: <seu_nome>
 	password: <sua_senha>
+
 
 
 ## Dicas connect
