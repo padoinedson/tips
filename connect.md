@@ -38,4 +38,4 @@ selecionar uma das máquinas disponíveis
 
 Padoin, Edson Luiz
 
-padoin@unijui.edu.br
+<email style="color:blue">padoin@unijui.edu.br</email>
