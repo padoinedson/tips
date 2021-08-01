@@ -9,12 +9,11 @@ https://remoto.unijui.edu.br/
 
 * para efetuar o login utilize: o login do portal (usuário sem o @sou.unijui.edu.br e senha)
 
-
 ## acesso as máquinas
 
 selecionar uma das máquinas disponíveis
 
-* se você `ainda não criou uma conta` utilize
+* se você `ainda não criou um usuário` utilize
 
 	-> login as: pp2021  
 	-> password: <informado_pelo_prof>
@@ -24,7 +23,7 @@ selecionar uma das máquinas disponíveis
 	$ sudo adduser <seu_nome>  
 	$ sudo usermod -a -G sudo <seu_nome>
 
-* se você `já criou uma conta` utilize
+* se você `já criou um usuário` utilize
 
 	-> login as: <seu_nome>  
 	-> password: <sua_senha>

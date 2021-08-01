@@ -125,6 +125,5 @@ $ git merge teste-de-funcionlidade
 
 ## Dicas github
 
-Padoin, Edson Luiz
-
+Padoin, Edson Luiz  
 padoin@unijui.edu.br

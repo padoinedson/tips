@@ -135,10 +135,5 @@ $ git rm a.txt
 
 ## Dicas git
 
-Padoin, Edson Luiz
-<<<<<<< HEAD
-
+Padoin, Edson Luiz  
 padoin@unijui.edu.br
-=======
-padoin@unijui.edu.br
->>>>>>> 012914513712bcd452fc8fcbbfe4d76eb2b8b1d1
