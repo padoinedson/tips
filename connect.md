@@ -16,14 +16,12 @@ selecionar uma das máquinas disponíveis
 
 * se você `ainda não criou uma conta` utilize
 
-	-> login as: pp2021
-
+	-> login as: pp2021  
 	-> password: <informado_pelo_prof>
 
- 	** crie um usuário
+ 	** crie um usuário **
 
-	$ sudo adduser <seu_nome>
-
+	$ sudo adduser <seu_nome>  
 	$ sudo usermod -a -G sudo <seu_nome>
 
 * se você `já criou uma conta` utilize
@@ -38,4 +36,5 @@ selecionar uma das máquinas disponíveis
 
 Padoin, Edson Luiz
 
-<email style="color:red">padoin@unijui.edu.br</email>
+padoin@unijui.edu.br
+
