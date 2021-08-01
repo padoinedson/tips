@@ -123,7 +123,6 @@ $ git merge teste-de-funcionlidade
 * [Link](http://git-scm.com/)
 
 
-## Dicas github
-
-Padoin, Edson Luiz  
-padoin@unijui.edu.br
+> ## Dicas github
+> Padoin, Edson Luiz  
+> padoin@unijui.edu.br

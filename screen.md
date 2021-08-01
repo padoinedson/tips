@@ -14,33 +14,26 @@ $ sudo apt install screen
 * editar o arquivo `.screenrc` por exemplo:
 
 $ nano ~/.screenrc  
-
-	shell -${SHELL}
-
-	caption always "%n(%t) : %c"
-
-	defscrollback 1024
-
-	startup_message off
-
-	hardstatus on
-
-	hardstatus alwayslastline
-
+> 	shell -${SHELL}  
+> 	caption always "%n(%t) : %c"  
+> 	defscrollback 1024  
+> 	startup_message off  
+> 	hardstatus on  
+> 	hardstatus alwayslastline
 
 ## utilização 1
 
 $ screen 
 
-		Ctrl+a c  -> novo shell
+>		Ctrl+a c  -> novo shell
 
-		Ctrl+a nº -> trocar entre shell	
+> 		Ctrl+a nº -> trocar entre shell	
 
-		exit      -> fechar um shell 
+> 		exit      -> fechar um shell 
 
-		Ctrl+a ?  -> help
+> 		Ctrl+a ?  -> help
 
-		Ctrl+a d  -> sair do screen
+> 		Ctrl+a d  -> sair do screen
 
 
 
@@ -56,13 +49,11 @@ $ screen -ls       -> Listando as "janelas" criadas pelo screen
 
 ## configuração temporária no screen
 
-		Ctrl+a : 
-		hardstatus alwayslastline "%c %w" 
+> 		Ctrl+a :  
+> 		hardstatus alwayslastline "%c %w" 
 
 
 
-## Dicas screen
-
-Padoin, Edson Luiz
-
-padoin@unijui.edu.br
+> ## Dicas screen  
+> Padoin, Edson Luiz  
+> padoin@unijui.edu.br

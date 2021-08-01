@@ -30,8 +30,7 @@ selecionar uma das máquinas disponíveis
 
 
 
-## Dicas connect
-
-Padoin, Edson Luiz  
-padoin@unijui.edu.br
+> ## Dicas connect
+> Padoin, Edson Luiz  
+> padoin@unijui.edu.br
 
