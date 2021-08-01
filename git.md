@@ -57,8 +57,8 @@ $ git status
 
 $ git commit -a -m "primeiro commit"
 
-		-a  			→ todos os arquivos alterados 
-		-m 	"texto"  	→ adiciona uma mensagem
+>		-a  			→ todos os arquivos alterados 
+>		-m 	"texto"  	→ adiciona uma mensagem
 
 $ git status
 
@@ -133,7 +133,6 @@ $ git rm a.txt
 * [Link](http://git-scm.com/)
 
 
-## Dicas git
-
-Padoin, Edson Luiz  
-padoin@unijui.edu.br
+> ## Dicas git  
+> Padoin, Edson Luiz  
+> padoin@unijui.edu.br
