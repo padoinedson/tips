@@ -62,4 +62,5 @@ $ screen -ls       -> Listando as "janelas" criadas pelo screen
 ## Dicas screen
 
 Padoin, Edson Luiz
+
 padoin@unijui.edu.br
