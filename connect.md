@@ -19,22 +19,20 @@ selecionar uma das máquinas disponíveis
 	-> login as: pp2021  
 	-> password: <informado_pelo_prof>
 
- 	** crie um usuário **
+ 	**crie um usuário**
 
 	$ sudo adduser <seu_nome>  
 	$ sudo usermod -a -G sudo <seu_nome>
 
 * se você `já criou uma conta` utilize
 
-	-> login as: <seu_nome>
-
+	-> login as: <seu_nome>  
 	-> password: <sua_senha>
 
 
 
 ## Dicas connect
 
-Padoin, Edson Luiz
-
+Padoin, Edson Luiz  
 padoin@unijui.edu.br
 
