@@ -14,7 +14,6 @@ $ git clone https://github.com/padoinedson/tips.git
 
 
 
-
 ## list servidor remoto
 
 $ git remote -v
@@ -67,8 +66,8 @@ $ git push -u origin main
 
 $ git checkout -b "teste-de-funcionlidade"
 
-cria arquivos
-edita arquivos
+criar arquivos
+editar arquivos
 
 $ git add d.c 
 
@@ -82,14 +81,12 @@ $ git push -u origin teste-de-funcionlidade
 
 $ git checkout main
 
-
 $ git checkout teste-de-funcionlidade
 
 
 
 
 ## merge
-
 
 $ git checkout main  -> estar trabalhando no main
 

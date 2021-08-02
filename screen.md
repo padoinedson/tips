@@ -20,8 +20,9 @@ $ nano ~/.screenrc
 > 	startup_message off  
 > 	hardstatus on  
 > 	hardstatus alwayslastline
->
-## utilização 1
+
+
+## dicas de utilização no screen
 
 $ screen 
 
@@ -34,11 +35,12 @@ $ screen
 
 
 
-## utilização 2
+## dicas de recuperação de screens
+
+$ screen -ls       -> Listando as "janelas" criadas pelo screen
 
 $ screen -r   	   -> para recuperar a screem - retornar onde estava 
 
-$ screen -ls       -> Listando as "janelas" criadas pelo screen
 
 
 

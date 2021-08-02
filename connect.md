@@ -13,7 +13,7 @@ https://remoto.unijui.edu.br/
 
 ## acesso as máquinas
 
-selecionar uma das máquinas disponíveis
+- selecionar uma das máquinas disponíveis
 
 * se você `ainda não criou um usuário` utilize
 
