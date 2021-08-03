@@ -1,6 +1,7 @@
 # Dicas de Git para Linux
 
 
+<img src="https://git-scm.com/images/logo@2x.png">
 
 
 ## instalar o GIT
@@ -122,9 +123,6 @@ $ cat a.txt
 
 $ git rm a.txt
 
-
-
-<img src="https://git-scm.com/images/logo@2x.png">
 
 
 

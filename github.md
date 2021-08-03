@@ -1,6 +1,10 @@
 # Dicas de Git e Github para Linux
 
 
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
+
+
 Se você ainda não usou/instalou git visite:
 * [Link](https://github.com/padoinedson/tips/blob/main/git.md)
 
