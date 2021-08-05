@@ -70,8 +70,7 @@ $ git push -u origin main
 
 $ git checkout -b "teste-de-funcionlidade"
 
-criar arquivos
-editar arquivos
+> ... criar arquivos e/ou editar arquivos  
 
 $ git add d.c 
 

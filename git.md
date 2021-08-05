@@ -9,6 +9,7 @@
 $ sudo apt install `git`
 
 
+
 ## criar um diretorio e entrar
  
 $ mkdir projeto

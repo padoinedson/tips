@@ -13,7 +13,7 @@ https://remoto.unijui.edu.br/
 
 ## acesso as máquinas
 
-- selecionar uma das máquinas disponíveis
+- selecionar uma das máquinas disponíveis de acordo com o arquivo: https://docs.google.com/spreadsheets/d/1vRaLgrtqwrFHr4smoz6SJ3tNwkqomehGbAMGctE8PdA/edit?usp=sharing
 
 * se você `ainda não criou um usuário` utilize
 
