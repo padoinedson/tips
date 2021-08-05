@@ -3,7 +3,6 @@
 
 
 
-
 ## instalação
 $ sudo apt install `screen`
 
@@ -23,6 +22,8 @@ $ nano ~/.screenrc
 
 
 ## dicas de utilização no screen
+
+* entrar no screen
 
 $ screen 
 
