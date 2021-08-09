@@ -5,20 +5,20 @@
 
 ## entrar no programa
 
-$ top
+$ `top`
 
 
 * opções:
 
-> `u` - username - para selecionar os processos de um usuário
+> `u` - username - para selecionar os processos de um usuário  
 
-> `<` - para mudar a coluna de ordenação
+> `<` - para mudar a coluna de ordenação  
 
-> `F` ou `O` - para ordenar os processos 
-	
-> `a` - para ordenar pelo pid
+> `F` ou `O` - para ordenar os processos  
 
-> `H` - para mostrar as threads/processos
+> `a` - para ordenar pelo pid  
+
+> `H` - para mostrar as threads/processos  
 
  
 
