@@ -4,7 +4,7 @@
 
 ## Visualizar configurações da CPU
 
-$ cat /proc/cpuinfo
+$ cat `/proc/cpuinfo`
 
 * visite: https://ark.intel.com/content/www/us/en/ark.html
 
@@ -13,7 +13,7 @@ $ cat /proc/cpuinfo
 
 ## Visualizar configurações da GPU
 
-$ nvidia-smi
+$ `nvidia-smi`
 
 
 
