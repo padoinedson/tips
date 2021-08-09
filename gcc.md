@@ -15,8 +15,8 @@ $  gcc    `nome_do_fonte.c`  `-o`  `nome_do_execeutável`
 
 $ gcc  `nome_do_fonte.c`  `-o`  `nome_do_execeutável`    -lpthread
 
-> `-o` - output
-> `-l` - link
+> `-o` - output  
+> `-l` - link  
 
 
 ## executar
