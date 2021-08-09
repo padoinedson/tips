@@ -5,7 +5,7 @@
 
 ## compilar programa em C
 
-$  gcc    `nome_do_fonte.c`  -o  `nome_do_execeutável`   
+$  gcc    `nome_do_fonte.c`  `-o`  `nome_do_execeutável`   
 
 
 
@@ -13,9 +13,10 @@ $  gcc    `nome_do_fonte.c`  -o  `nome_do_execeutável`
 ## compilar programa em C com pthread
  
 
-$ gcc  `nome_do_fonte.c`  -o  `nome_do_execeutável`    -lpthread
+$ gcc  `nome_do_fonte.c`  `-o`  `nome_do_execeutável`    -lpthread
 
-
+> `-o` - output
+> `-l` - link
 
 
 ## executar
