@@ -21,7 +21,7 @@ $ gcc  `nome_do_fonte.c`  `-o`  `nome_do_execeutável`    -lpthread
 
 ## executar
  
-$  ./p
+$  ./`nome_do_execeutável`
 
 
 
