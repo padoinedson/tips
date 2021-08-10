@@ -26,7 +26,6 @@ $ `top`
  
 
 
-
 > ## Dicas top  
 > Padoin, Edson Luiz  
 > padoin@unijui.edu.br
