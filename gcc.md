@@ -1,6 +1,7 @@
 # Dicas de gcc para Linux
 
 
+
  
 
 ## compilar programa em C
@@ -21,12 +22,11 @@ $ gcc  `nome_do_fonte.c`  `-o`  `nome_do_executável`    -lpthread
 
 ## executar
  
-$  ./nome_do_executável  
+$ ./nome_do_executável  
 
 
 
  
-
 
 
 > ## Dicas gcc  
