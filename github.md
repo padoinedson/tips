@@ -13,7 +13,7 @@ Se você ainda não usou/instalou git visite:
 
 ## clonar um projeto remoto
 
-$ git clone https://github.com/padoinedson/tips.git
+$ git clone https://github.com/padoinedson/lggc.git
 
 
 
@@ -136,8 +136,7 @@ $ cat ` ~/.ssh/id_ed25519.pub `
 
 
 
-## 2o. trocar o modo de acesso
-
+## 2o. trocar o modo de acesso do servidor remoto
 
 $ git remote -v
 
