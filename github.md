@@ -36,6 +36,8 @@ $ git pull
  
 $ echo "este arquivo sera adicionado ao github" > a.txt
 
+$ git status
+
 $ git add a.txt
 
 $ git status
@@ -58,7 +60,7 @@ $ git commit -am "alterado a.txt"
 
 $ git push 
 
-
+$ git status
 
 
 
