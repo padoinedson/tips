@@ -18,7 +18,7 @@ $ git clone https://github.com/padoinedson/tips.git
 
 
 
-## list servidor remoto
+## listar servidor remoto
 
 $ git remote -v
 
@@ -32,7 +32,7 @@ $ git pull
 
 
 
-## adicionando arquivo
+## adicionar um arquivo
  
 $ echo "#include" >> a.c
 
@@ -47,7 +47,7 @@ $ git push -u origin main
 
 
 
-## alterando arquivos
+## alterar o arquivo
 
  
 $ echo "# pp2021" >> b.c
@@ -101,6 +101,43 @@ $ git merge teste-de-funcionlidade
 
 
 
+
+
+## criar uma chave com o seu login do github
+
+$ ssh-keygen -t ed25519 -C "padoinedson@github.com"
+
+$ eval ` "$(ssh-agent -s)"  `
+
+$ ssh -vT ` padoinedson@github.com `
+
+$ ssh-add `~/.ssh/id_ed25519`
+
+
+
+## verificar o modo de acesso
+
+$ git remote -v
+
+> origin  https://github.com/padoinedson/lggc.git (fetch)
+> origin  https://github.com/padoinedson/lggc.git (push)
+> está como https
+
+
+## trocar o modo de acesso
+$ git remote set-url origin ` git@github.com:padoinedson/lggc.git `
+
+
+## verificar o modo de acesso
+$ git remote -v
+
+> origin  git@github.com:padoinedson/lggc.git (fetch)
+> origin  git@github.com:padoinedson/lggc.git (push)
+> agora está como ssh
+
+
+
+* [Link](https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 
 ## adicionar ssh
