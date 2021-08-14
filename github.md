@@ -60,7 +60,21 @@ $ git commit -am "alterado a.txt"
 
 $ git push 
 
-$ git status
+$ git statusg
+
+
+
+
+## excluindo o arquivo
+
+
+$  git rm a.txt 
+
+$  git commit -am "excluindo arquivo a.txt"
+
+$  git push 
+
+$  git status 
 
 
 
