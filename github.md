@@ -44,7 +44,7 @@ $ git status
 
 $ git commit -m "criado arquivo a.txt"
 
-$ git push -u origin main
+$ git push 
 
 
 
@@ -60,7 +60,7 @@ $ git commit -am "alterado a.txt"
 
 $ git push 
 
-$ git statusg
+$ git status
 
 
 
@@ -117,9 +117,9 @@ $ git merge teste-de-funcionlidade
 
 
 
+# CONFIGURAÇÕES
 
-
-## criar uma chave com o seu login do github
+## 1o. criar uma chave com o seu login do github
 
 $ ssh-keygen -t ed25519 -C "padoinedson@github.com"
 
@@ -129,16 +129,21 @@ $ ssh -vT ` padoinedson@github.com `
 
 $ ssh-add `~/.ssh/id_ed25519`
 
+$ cat ` ~/.ssh/id_ed25519.pub `
+
+> copiar a chave púclica para o github em ` settings ` - `SSH and GPG keys `
 
 
 
-## verificar o modo de acesso
+
+## 2o. trocar o modo de acesso
+
 
 $ git remote -v
 
 > origin  https://github.com/padoinedson/lggc.git (fetch)
 > origin  https://github.com/padoinedson/lggc.git (push)
-> está como https
+> verifique que está como https
 
 
 ## trocar o modo de acesso
@@ -155,6 +160,7 @@ $ git remote -v
 
 
 * [Link](https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 
 
 ## adicionar ssh
