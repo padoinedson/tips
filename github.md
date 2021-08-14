@@ -34,13 +34,13 @@ $ git pull
 
 ## adicionar um arquivo
  
-$ echo "#include" >> a.c
+$ echo "este arquivo sera adicionado ao github" > a.txt
 
-$ git add a.c 
+$ git add a.txt
 
 $ git status
 
-$ git commit -m "criado arquivo a.c"
+$ git commit -m "criado arquivo a.txt"
 
 $ git push -u origin main
 
@@ -50,16 +50,13 @@ $ git push -u origin main
 ## alterar o arquivo
 
  
-$ echo "# pp2021" >> b.c
+$ echo "adicionamos mais uma linha ao arquivo" >> a.txt
 
 $ git diff
 
-$ git add b.c 
+$ git commit -am "alterado a.txt"
 
-$ git commit -m "alterado b.c"
-
-$ git push -u origin main
-
+$ git push 
 
 
 
