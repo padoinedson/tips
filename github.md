@@ -65,7 +65,7 @@ $ git statusg
 
 
 
-## excluindo o arquivo
+## excluir o arquivo
 
 
 $  git rm a.txt 
@@ -75,6 +75,8 @@ $  git commit -am "excluindo arquivo a.txt"
 $  git push 
 
 $  git status 
+
+
 
 
 
@@ -90,6 +92,7 @@ $ git add d.c
 $ git commit -m "alterado d.c"
 
 $ git push -u origin teste-de-funcionlidade
+
 
 
 
@@ -125,6 +128,7 @@ $ eval ` "$(ssh-agent -s)"  `
 $ ssh -vT ` padoinedson@github.com `
 
 $ ssh-add `~/.ssh/id_ed25519`
+
 
 
 
