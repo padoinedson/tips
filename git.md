@@ -27,7 +27,7 @@ $ ls -la
 
 ## configurar o git
 
-> $ git config --list
+> $ git config --list  
 > $ git config --global user.name "seu_nome_no_github"  
 > $ git config --global user.email "seu_email@no_github"  
 > $ git config --list
