@@ -8,7 +8,7 @@ $ sudo apt install `screen`
 
 
 
-## configuração permanente no arquivo ".screenrc"  
+## configuração **permanente** no arquivo ".screenrc"  
 
 * editar o arquivo `.screenrc` por exemplo:
 
