@@ -20,6 +20,8 @@ $ git clone https://github.com/padoinedson/lggc.git
 
 ## listar servidor remoto
 
+$ cd lgcc
+
 $ git remote -v
 
 
@@ -120,6 +122,8 @@ $ git merge teste-de-funcionlidade
 # CONFIGURAÇÕES
 
 ## 1o. criar uma chave com o seu login do github
+
+$ sudo apt install ssh
 
 $ ssh-keygen -t ed25519 -C "padoinedson@github.com"
 
