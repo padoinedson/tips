@@ -127,6 +127,62 @@ $ git rm a.txt
 
 
 
+
+
+## excluir o arquivo
+
+
+$  git rm a.txt 
+
+$  git commit -am "excluindo arquivo a.txt"
+
+$  git push 
+
+$  git status 
+
+
+
+
+
+## criar um branch
+
+
+$ git checkout -b "teste-de-funcionlidade"
+
+> ... criar arquivos e/ou editar arquivos  
+
+$ git add d.c 
+
+$ git commit -m "alterado d.c"
+
+$ git push -u origin teste-de-funcionlidade
+
+
+
+
+## trocar de branch
+
+$ git checkout main
+
+$ git checkout teste-de-funcionlidade
+
+
+
+
+## merge
+
+$ git checkout main  -> estar trabalhando no main
+
+$ git merge teste-de-funcionlidade
+
+
+
+
+
+
+
+
+
 ### Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 * [Link](http://git-scm.com/)

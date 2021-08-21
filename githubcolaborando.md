@@ -1,78 +1,39 @@
 # Dicas de Git e Github para Linux
 
-# criando um projeto
+# colaborando com projeto de equipes
+
+
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
 
 
-Se você ainda não usou/instalou git visite:
-* [Link](https://github.com/padoinedson/tips/blob/main/git.md)
-
-
-
-## criar um repositório
-
-acesse a sua conta no github e crie um repositório com nome teste
 
 
 
 ## clonar um projeto remoto
 
-$ git clone https://github.com/padoinunijui/teste.git
-
-
-
-## listar servidor remoto
-
-$ cd teste
+$ git clone https://github.com/padoinedson/exercicio1.git
 
 
 
 
-
-# **CONFIGURAÇÕES**
 
 
 ## 1o. trocar o modo de acesso do servidor remoto
 
 $ git remote -v
 
-> origin  https://github.com/padoinunijui/teste.git (fetch)  
-> origin  https://github.com/padoinunijui/teste.git (push)  
+> origin  https://github.com/padoinedson/exercicio1.git (fetch)  
+> origin  https://github.com/padoinedson/exercicio1.git (push)  
 > verifique que está como https  
 
 
 ## trocar o modo de acesso
-$ git remote set-url origin ` git@github.com:padoinunijui/teste.git `
+$ git remote set-url origin ` git@github.com:padoinedson/exercicio1.git `
 
 
 ## verificar o modo de acesso
 $ git remote -v
-
-> origin  git@github.com:padoinedson/lggc.git (fetch)  
-> origin  git@github.com:padoinedson/lggc.git (push)  
-> agora está como ssh
-
-
-
-
-
-## 1o. criar uma chave com o seu login do github
-
-$ sudo apt install ssh
-
-$ ssh-keygen -t ed25519 -C "padoinunijui@github.com"
-
-$ eval ` "$(ssh-agent -s)"  `
-
-$ ssh -vT ` padoinunijui@github.com `
-
-$ ssh-add `~/.ssh/id_ed25519`
-
-$ cat ` ~/.ssh/id_ed25519.pub `
-
-> adicionar a chave púclica para o github em ` settings ` - `SSH and GPG keys `  
-> copie ela para a sua conta  
 
 
 
@@ -80,8 +41,6 @@ $ cat ` ~/.ssh/id_ed25519.pub `
 ## copiar as modificações do servidor para o repositório local
 
 $ git pull
-
-
 
 
 
@@ -98,16 +57,28 @@ $ git status
 
 $ git commit -m "criado arquivo a.txt"
 
-
-
-## copiar as modificações do repositório local para o servidor 
-
 $ git push 
 
 
 
 
+## alterar o arquivo
 
+ 
+$ echo "adicionamos mais uma linha ao arquivo" >> a.txt
+
+$ git diff
+
+$ git commit -am "alterado a.txt"
+
+$ git push 
+
+$ git status
+
+
+## copiar as modificações do repositório local para o servidor 
+
+$ git push 
 
 
 
