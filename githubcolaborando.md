@@ -1,16 +1,17 @@
-# Dicas de Git e Github para Linux
+# Dicas de Github para Linux
 
-# colaborando com projeto de equipes
+# colaborar com projeto de equipes
 
 
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
 
 
+## acessar o email recebido do github e aceitar o convite para participar da equipe
 
 
 
-## clonar um projeto remoto
+## clonar o projeto remoto da equipe
 
 $ git clone https://github.com/padoinedson/exercicio1.git
 
@@ -18,9 +19,12 @@ $ git clone https://github.com/padoinedson/exercicio1.git
 
 
 
+## **CONFIGURAÇÃO DO GITHUB**
 
-## 1o. trocar o modo de acesso do servidor remoto
 
+## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
+
+$ cd exercicio1
 $ git remote -v
 
 > origin  https://github.com/padoinedson/exercicio1.git (fetch)  
@@ -47,15 +51,15 @@ $ git pull
 
 ## adicionar um arquivo
  
-$ echo "este arquivo sera adicionado ao github" > a.txt
+$ echo "este arquivo sera adicionado ao github" > seunome.txt
 
 $ git status
 
-$ git add a.txt
+$ git add seunome.txt
 
 $ git status
 
-$ git commit -m "criado arquivo a.txt"
+$ git commit -m "criado arquivo seunome.txt"
 
 $ git push 
 
@@ -65,21 +69,15 @@ $ git push
 ## alterar o arquivo
 
  
-$ echo "adicionamos mais uma linha ao arquivo" >> a.txt
+$ echo "adicionamos mais uma linha ao arquivo" >> seunome.txt
 
 $ git diff
 
-$ git commit -am "alterado a.txt"
+$ git commit -am "alterado seunome.txt"
 
 $ git push 
 
 $ git status
-
-
-## copiar as modificações do repositório local para o servidor 
-
-$ git push 
-
 
 
 

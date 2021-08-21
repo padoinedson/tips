@@ -4,15 +4,14 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
 
 
-Se você ainda não usou/instalou git visite:
-* [Link](https://github.com/padoinedson/tips/blob/main/git.md)
+Se você ainda não usou/instalou git visite: [Link](https://github.com/padoinedson/tips/blob/main/git.md)
 
 
 
 ## criar um repositório
 
 acesse a sua conta no github.com e crie um repositório com nome teste
-
+> use opção pública
 
 
 ## clonar um repositório remoto
