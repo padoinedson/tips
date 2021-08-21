@@ -30,10 +30,10 @@ $ cd teste
 
 
 
-# **CONFIGURAÇÕES**
+## **CONFIGURAÇÃO DO GITHUB**
 
 
-## 1o. trocar o modo de acesso do servidor remoto
+## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
 
 $ git remote -v
 
@@ -49,8 +49,8 @@ $ git remote set-url origin ` git@github.com:padoinunijui/teste.git `
 ## verificar o modo de acesso
 $ git remote -v
 
-> origin  git@github.com:padoinedson/lggc.git (fetch)  
-> origin  git@github.com:padoinedson/lggc.git (push)  
+> origin  git@github.com:padoinunijui/teste.git (fetch)  
+> origin  git@github.com:padoinunijui/teste.git (push)  
 > agora está como ssh
 
 

@@ -25,7 +25,9 @@ $ git init
 $ ls -la
 
 
-## configurar o git
+## **CONFIGURAÇÃO DO GIT**
+
+## 1o. adicionar user e email 
 
 > $ git config --list  
 > $ git config --global user.name "seu_nome_no_github"  
