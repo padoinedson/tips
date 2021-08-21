@@ -1,6 +1,5 @@
-# Dicas de Git e Github para Linux
+# Dicas de Github para Linux
 
-# criando um projeto
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
 
@@ -12,19 +11,17 @@ Se você ainda não usou/instalou git visite:
 
 ## criar um repositório
 
-acesse a sua conta no github e crie um repositório com nome teste
+acesse a sua conta no github.com e crie um repositório com nome teste
 
 
 
-## clonar um projeto remoto
+## clonar um repositório remoto
 
 $ git clone https://github.com/padoinunijui/teste.git
 
 
 
-## listar servidor remoto
 
-$ cd teste
 
 
 
@@ -35,6 +32,9 @@ $ cd teste
 
 ## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
 
+### listar servidor remoto
+
+$ cd teste
 $ git remote -v
 
 > origin  https://github.com/padoinunijui/teste.git (fetch)  
@@ -57,7 +57,7 @@ $ git remote -v
 
 
 
-## 1o. criar uma chave com o seu login do github
+## 2o. criar uma chave ssh com o seu login do github
 
 $ sudo apt install ssh
 
@@ -72,7 +72,7 @@ $ ssh-add `~/.ssh/id_ed25519`
 $ cat ` ~/.ssh/id_ed25519.pub `
 
 > adicionar a chave púclica para o github em ` settings ` - `SSH and GPG keys `  
-> copie ela para a sua conta  
+> copie ela para a sua conta  (não cole os espaços ou quebra de linha)
 
 
 
