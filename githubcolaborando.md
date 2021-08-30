@@ -24,12 +24,12 @@ $ git clone https://github.com/padoinedson/exercicio1.git
 
 ## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
 
-$ cd exercicio1
+$ cd exercicio1  
 $ git remote -v
 
 > origin  https://github.com/padoinedson/exercicio1.git (fetch)  
 > origin  https://github.com/padoinedson/exercicio1.git (push)  
-> verifique que está como https  
+> verifique que está com acesso https  
 
 
 ## trocar o modo de acesso
@@ -38,7 +38,7 @@ $ git remote set-url origin ` git@github.com:padoinedson/exercicio1.git `
 
 ## verificar o modo de acesso
 $ git remote -v
-
+> verifique que está com acesso ssh  
 
 
 
