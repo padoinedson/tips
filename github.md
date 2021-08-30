@@ -8,10 +8,6 @@ Se você ainda não usou/instalou git visite: [Link](https://github.com/padoined
 
 
 
-## criar um repositório
-
-acesse a sua conta no github.com e crie um repositório com nome teste
-> use opção pública
 
 
 ## clonar um repositório remoto
@@ -33,7 +29,7 @@ $ git clone https://github.com/padoinedson/exercicio1.git
 
 ### listar servidor remoto
 
-$ cd teste
+$ cd exercicio1  
 $ git remote -v
 
 > origin  https://github.com/padoinedson/exercicio1.git (fetch)  
