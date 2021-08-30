@@ -85,19 +85,19 @@ $ git pull
 
 ## adicionar um arquivo
  
-$ echo "este arquivo sera adicionado ao github" > a.txt
+$ resolva o exercicio no arquivo `ex1-par-seunome.c` e salve dentro da pasta
 
 $ git status
 
-$ git add a.txt
+$ git add `ex1-par-seunome.c`.txt
 
 $ git status
 
-$ git commit -m "criado arquivo a.txt"
+$ git commit -m "entregando exercicio 1"
 
 
 
-## copiar as modificações do repositório local para o servidor 
+## copiar as modificações do repositório local para o servidor `github`
 
 $ git push 
 
