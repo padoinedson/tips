@@ -16,7 +16,7 @@ acesse a sua conta no github.com e crie um repositório com nome teste
 
 ## clonar um repositório remoto
 
-$ git clone https://github.com/padoinunijui/teste.git
+$ git clone https://github.com/padoinedson/exercicio1.git
 
 
 
@@ -36,20 +36,20 @@ $ git clone https://github.com/padoinunijui/teste.git
 $ cd teste
 $ git remote -v
 
-> origin  https://github.com/padoinunijui/teste.git (fetch)  
-> origin  https://github.com/padoinunijui/teste.git (push)  
+> origin  https://github.com/padoinedson/exercicio1.git (fetch)  
+> origin  https://github.com/padoinedson/exercicio1.git (push)  
 > verifique que está como https  
 
 
 ## trocar o modo de acesso
-$ git remote set-url origin ` git@github.com:padoinunijui/teste.git `
+$ git remote set-url origin ` git@github.com:padoinedson/exercicio1.git `
 
 
 ## verificar o modo de acesso
 $ git remote -v
 
-> origin  git@github.com:padoinunijui/teste.git (fetch)  
-> origin  git@github.com:padoinunijui/teste.git (push)  
+> origin  git@github.com:padoinedson/exercicio1.git (fetch)  
+> origin  git@github.com:padoinedson/exercicio1.git (push)  
 > agora está como ssh
 
 
@@ -60,11 +60,11 @@ $ git remote -v
 
 $ sudo apt install ssh
 
-$ ssh-keygen -t ed25519 -C "padoinunijui@github.com"
+$ ssh-keygen -t ed25519 -C "padoinedson@github.com"
 
 $ eval ` "$(ssh-agent -s)"  `
 
-$ ssh -vT ` padoinunijui@github.com `
+$ ssh -vT ` padoinedson@github.com `
 
 $ ssh-add `~/.ssh/id_ed25519`
 
