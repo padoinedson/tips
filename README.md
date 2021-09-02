@@ -1,6 +1,8 @@
 # tips
 
 
+![tips](feynman.png)
+
 <img src="https://logosmarcas.net/wp-content/uploads/2020/09/Linux-Logo.png">
 
 
