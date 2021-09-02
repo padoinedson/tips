@@ -1,6 +1,5 @@
 # Dicas comando top
 
-as
 
 
  
@@ -25,6 +24,9 @@ $ `top`
  
 
 
+## entrar no programa
+
+$ `htop`
  
 
 
