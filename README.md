@@ -6,9 +6,13 @@
 
 ![tips](pin.png)
 
-[//]: # (
-<img src="https://logosmarcas.net/wp-content/uploads/2020/09/Linux-Logo.png">
-)
+[//]: # (<img src="https:..">)
+
+<!--
+    this is a comment.
+-->
+
+
 
 ## Este repositório é publico e possui algumas "dicas" de configuração e utilização de serviços no Sistema Operacional Linux.
 
