@@ -13,7 +13,7 @@ Se você ainda não usou/instalou git visite: [Link](https://github.com/padoined
 ## clonar um repositório remoto
 
 $ git clone https://github.com/padoinedson/exercicio1.git
-
+> substitua a nome do repositorio 
 
 
 
