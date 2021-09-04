@@ -3,6 +3,7 @@
 
 ![tips](feynman.png)
 
+![tips](edward.png)
 
 ![tips](pin.png)
 
