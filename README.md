@@ -1,7 +1,13 @@
 # tips
 
 
-[![Home: padoin](http://img.shields.io/pypi/l/rows.svg)](https://github.com/padoinedson)
+[![linkedin: padoin](https://img.shields.io/badge/-LinkedIn-%230077B5)](https://github.com/padoinedson)
+
+[![gmail: padoin](https://img.shields.io/badge/Gmail-D14836)](mailto:padoin.edson@gmail.com)
+
+
+
+ 
 
 
 ![tips](feynman.png)
