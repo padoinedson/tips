@@ -1,9 +1,13 @@
 # tips
 
 
-[![linkedin: padoin](https://img.shields.io/badge/-LinkedIn-%230077B5)](https://github.com/padoinedson)
-
+[![linkedin: padoin](https://img.shields.io/badge/-LinkedIn-%230077B5)](https://www.linkedin.com/in/padoin/)
 [![gmail: padoin](https://img.shields.io/badge/Gmail-D14836)](mailto:padoin.edson@gmail.com)
+[![tweeter: padoin](https://img.shields.io/twitter/url?logo=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fpadoinedson)](padoinedson)
+[![home: padoin](https://img.shields.io/badge/home-padoin.com-red)](http://www.padoin.com.br)
+
+
+@padoinedson
 
 
 
