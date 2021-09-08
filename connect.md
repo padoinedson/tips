@@ -1,4 +1,4 @@
-# Dicas para concectar os servidores 
+# Dicas para concectar os servidores da universidade
 
 
 ## acesso ao sistema
@@ -9,6 +9,8 @@ https://remoto.unijui.edu.br/
 ## login
 
 * para efetuar o login utilize: o login do portal (usuário sem o @sou.unijui.edu.br e senha)
+
+
 
 
 ## acesso as máquinas
