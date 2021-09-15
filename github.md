@@ -1,7 +1,6 @@
 # Dicas de Github para Linux
 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
 
 
 Se você ainda não usou/instalou git visite: [Link](https://github.com/padoinedson/tips/blob/main/git.md)
@@ -10,19 +9,11 @@ Se você ainda não usou/instalou git visite: [Link](https://github.com/padoined
 
 
 
-## clonar um repositório remoto
+## clonar um repositório remoto com modo de acesso do servidor remoto http
 
 $ git clone https://github.com/padoinedson/exercicio1.git
 > substitua a nome do repositorio 
 
-
-
-
-
-
-
-
-## **CONFIGURAÇÃO DO GITHUB**
 
 
 ## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
@@ -37,11 +28,11 @@ $ git remote -v
 > verifique que está como https  
 
 
-## trocar o modo de acesso
+### trocar o modo de acesso
 $ git remote set-url origin ` git@github.com:padoinedson/exercicio1.git `
 
 
-## verificar o modo de acesso
+### verificar o modo de acesso
 $ git remote -v
 
 > origin  git@github.com:padoinedson/exercicio1.git (fetch)  

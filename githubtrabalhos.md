@@ -5,7 +5,7 @@
 
 
 
-### 1o. instalar e configurar o git  
+### 1o. instalar e configurar o git  (se você ainda não instalou)
 
 $ sudo apt install git  
 
@@ -16,7 +16,7 @@ $ git config --global user.email "padoin.edson@gmail.com"
 > substitua `padoin.edson` pelo seu `email` no github  
 
 
-### 2o. criar uma chave ssh com o seu login do github
+### 2o. criar uma chave ssh com o seu login do github (se você ainda não instalou)
 
 
 $ sudo apt install ssh
@@ -58,7 +58,7 @@ $ cd pp-trabalhos
 
 $ git pull
 
-$ git add t1-seunome.c
+$ git add `t1-seunome.c`
 
 $ git status
 
