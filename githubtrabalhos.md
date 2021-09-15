@@ -16,7 +16,7 @@ $ git config --global user.email "padoin.edson@gmail.com"
 > substitua `padoin.edson` pelo seu `email` no github  
 
 
-## 2o. criar uma chave ssh com o seu login do github
+### 2o. criar uma chave ssh com o seu login do github
 
 
 $ sudo apt install ssh
@@ -43,7 +43,7 @@ $ cat ` ~/.ssh/id_ed25519.pub `
 
 
 
-### 4o. clonar o projeto remoto 
+### 4o. clonar o projeto remoto com modo de acesso ssh
 
 $ `git clone git@github.com:padoinedson/pp-trabalhos.git`
 
