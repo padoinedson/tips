@@ -1,10 +1,8 @@
-# Dicas de Github para Linux
-
-# colaborar com projeto de equipes
+# Passos para entrega do trabalho
 
 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq65a7eURVcc8cpEB42M35mNIKilVo6ccW9XoAQampc2M4xRopPWGzA_ai8ho2YhyEgaQ&usqp=CAU">
+
 
 
 ### 1o. instalar e configurar o git  
@@ -12,27 +10,51 @@
 $ sudo apt install git  
 
 $ git config --global user.name "padoinedson"  
+> substitua `padoinedson` pelo seu `login` no github  
 
 $ git config --global user.email "padoin.edson@gmail.com"  
+> substitua `padoin.edson` pelo seu `email` no github  
+
+
+## 2o. criar uma chave ssh com o seu login do github
+
+
+$ sudo apt install ssh
+
+$ ssh-keygen -t ed25519 -C "padoinedson@github.com"
+> substitua `padoinedson` pelo seu `login` no github  
+
+$ eval ` "$(ssh-agent -s)"  `
+
+$ ssh -vT ` padoinedson@github.com `
+
+$ ssh-add `~/.ssh/id_ed25519`
+
+$ cat ` ~/.ssh/id_ed25519.pub `
+
+> adicionar a chave púclica para o github em ` settings ` - `SSH and GPG keys `  
+> copie ela para a sua conta  (não cole os espaços ou quebra de linha)
 
 
 
 
-### 2o. acessar o email recebido do github e aceitar o convite para contribuir no repositório  
+### 3o. acessar o email recebido do github e aceitar o convite para contribuir no repositório  
 
 
 
 
-### 3o. clonar o projeto remoto da equipe
+### 4o. clonar o projeto remoto 
 
 $ `git clone git@github.com:padoinedson/pp-trabalhos.git`
 
  
 
 
-### 4o. fazer o trabalho salvando na pasta e entregar
+### 5o. fazer o trabalho salvando na pasta e entregar
 
 $ cd pp-trabalhos  
+
+> fazer o trabalho a salvar com nome `t1-seunome.c`
 
 $ git pull
 

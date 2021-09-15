@@ -54,11 +54,11 @@ $ git remote -v
 
 ## 2o. criar uma chave ssh com o seu login do github
 
-> substitua `padoinedson` pelo seu `login` no github  
 
 $ sudo apt install ssh
 
 $ ssh-keygen -t ed25519 -C "padoinedson@github.com"
+> substitua `padoinedson` pelo seu `login` no github  
 
 $ eval ` "$(ssh-agent -s)"  `
 
