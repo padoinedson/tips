@@ -181,8 +181,9 @@ $ git merge teste-de-funcionlidade
 
 
 
+## ignorar arquivos no commit
 
-
+criar um arquivo com nome `.gitignore` na pasta
 
 
 
