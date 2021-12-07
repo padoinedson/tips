@@ -140,8 +140,6 @@ $  git rm a.txt
 
 $  git commit -am "excluindo arquivo a.txt"
 
-$  git push 
-
 $  git status 
 
 
@@ -151,33 +149,51 @@ $  git status
 ## criar um branch
 
 
-$ git checkout -b "teste-de-funcionlidade"
+$git branch testing
 
-> ... criar arquivos e/ou editar arquivos  
-
-$ git add d.c 
-
-$ git commit -m "alterado d.c"
-
-$ git push -u origin teste-de-funcionlidade
+$ git log
+> exibe os dois branches(master, testing) --- o HEAD aponta para master  
+> (HEAD -> master, testing)  
 
 
 
 
-## trocar de branch
+## alternar entre branches
 
-$ git checkout main
+$ git checkout testing
 
-$ git checkout teste-de-funcionlidade
+$ git log
+> exibe os dois branches(master, testing) --- o HEAD aponta para testing  
+> (HEAD -> testing, master) 
+
+
+
+$ echo "Equador" >> d.txt   
+
+$ git add d.c  
+
+$ git commit -m "adicionei d.c"  
+
+> criacao do arquivo no branch testing
 
 
 
 
-## merge
+## voltar para o branch master
 
-$ git checkout main  -> estar trabalhando no main
+$ git checkout master  
 
-$ git merge teste-de-funcionlidade
+
+
+
+## merge de um branch no master
+
+$ git checkout master  
+> deve estar trabalhando no master
+
+$ git merge testing
+
+
 
 
 
@@ -188,7 +204,6 @@ criar um arquivo com nome `.gitignore` na pasta
 
 
 
-### Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 * [Link](http://git-scm.com/)
 
