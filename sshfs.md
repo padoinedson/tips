@@ -4,8 +4,7 @@
 
 
 
-
-## instalação do pacote
+## instalar o SSHFS
 
 ### Servidor
 
@@ -24,7 +23,6 @@ $ sudo apt install sshfs
 ## utilização 
 
 ### Cliente
-
 
 > criar um diretorio onde será mapeado o servidor
  
