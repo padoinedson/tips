@@ -207,7 +207,8 @@ criar um arquivo com nome `.gitignore` na pasta
 
 * [Link](http://git-scm.com/)
 
-* [Link com os downloads](https://git-scm.com/downloads)
+* [Link downloads](https://git-scm.com/downloads)
+
 
 
 > ## Dicas git  
