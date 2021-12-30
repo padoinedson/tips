@@ -275,24 +275,17 @@ Opções:
 conteúdo do arquivo:
 
 >				FROM    # deve ser a primeira instrução - de qual imagem base vou criar a minha
-
 >				RUN  	# comando que vai ser rodado na instalação
-
 >				ENV     #
-
 >				CMD     # deve ser a última instrução - qual comando vai ser executado qdo o container for levantado
 
 
 Exemplo Dockerfile com serviço de rede:
 
 >					FROM ubuntu
-
 >					MAINTAINER padoin
-
 >					RUN apt-get -y update
-
 >					RUN apt-get -y install net-tools
-
 >					RUN apt-get -y install iputils-ping
 
 
@@ -416,17 +409,12 @@ Exemplo Dockerfile com serviço de rede:
 
 >	criar um arquivo Dockefile com o seguinte conteudo
 
-			FROM ubuntu
-
-			MAINTAINER padoin
-
-			RUN mkdir -p /test
-
-			RUN useradd appuser 
-
-			RUN usermod -a -G sudo appuser
-
-			USER appuser
+			FROM ubuntu  
+			MAINTAINER padoin  
+			RUN mkdir -p /test  
+			RUN useradd appuser   
+			RUN usermod -a -G sudo appuser  
+			USER appuser  
 
 
 > 	criar uma imagem  
