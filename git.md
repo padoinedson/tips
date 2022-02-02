@@ -6,15 +6,15 @@
 <img src="https://git-scm.com/images/logo@2x.png">
 
 
-## INSTALAÇÃO DO GIT
-## instalar o GIT
+# INSTALAÇÃO  
+## instalar o pacote
 
 $ sudo apt install `git`
 
 
 
 
-## CONFIGURAÇÃO DO GIT
+# CONFIGURAÇÃO  
 ## adicionar usuário e email 
 
 > $ git config --list  
@@ -24,8 +24,7 @@ $ sudo apt install `git`
 
 
 
-
-
+# UTILIZAÇÃO  
 
 
 ## criar um diretorio e entrar
