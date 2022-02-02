@@ -73,7 +73,7 @@ $ git log
 
 
 
-## modificar arquivo
+## modificar arquivo - adicionar texto ao final do arquivo
 
 $ echo "Argentina" >> a.txt 
 
