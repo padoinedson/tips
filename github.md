@@ -5,14 +5,20 @@
 
 Se você ainda não usou/instalou git visite: [Link](https://github.com/padoinedson/tips/blob/main/git.md)
 
+# CRIAÇÃO DA CONTA 
+
+
+> Acesse https://github.com/ e crie a sua conta
+
 
 
 
 
 ## clonar um repositório remoto com modo de acesso do servidor remoto http
 
-$ git clone https://github.com/padoinedson/exercicio1.git
-> substitua a nome do repositorio 
+$ git clone https://github.com/padoinedson/sd2022.git
+
+
 
 
 
@@ -22,23 +28,23 @@ $ git clone https://github.com/padoinedson/exercicio1.git
 
 ### listar servidor remoto
 
-$ cd exercicio1  
+$ cd sd2022  
 $ git remote -v
 
-> origin  https://github.com/padoinedson/exercicio1.git (fetch)  
-> origin  https://github.com/padoinedson/exercicio1.git (push)  
+> origin  https://github.com/padoinedson/sd2022.git (fetch)  
+> origin  https://github.com/padoinedson/sd2022.git (push)  
 > verifique que está como https  
 
 
 ### trocar o modo de acesso
-$ git remote set-url origin ` git@github.com:padoinedson/exercicio1.git `
+$ git remote set-url origin `git@github.com:padoinedson/sd2022.git`
 
 
 ### verificar o modo de acesso
 $ git remote -v
 
-> origin  git@github.com:padoinedson/exercicio1.git (fetch)  
-> origin  git@github.com:padoinedson/exercicio1.git (push)  
+> origin  git@github.com:padoinedson/sd2022.git (fetch)  
+> origin  git@github.com:padoinedson/sd2022.git (push)  
 > agora está como ssh
 
 
