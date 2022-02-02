@@ -11,6 +11,20 @@
 $ sudo apt install `git`
 
 
+## **CONFIGURAÇÃO DO GIT**
+
+## adicionar usuário e email 
+
+> $ git config --list  
+> $ git config --global user.name "seu_nome_no_github"  
+> $ git config --global user.email "seu_email@no_github"  
+> $ git config --list
+
+
+
+
+
+
 
 ## criar um diretorio e entrar
  
@@ -25,16 +39,6 @@ $ cd projeto
 $ git init
 
 $ ls -la
-
-
-## **CONFIGURAÇÃO DO GIT**
-
-## 1o. adicionar user e email 
-
-> $ git config --list  
-> $ git config --global user.name "seu_nome_no_github"  
-> $ git config --global user.email "seu_email@no_github"  
-> $ git config --list
 
 
 
