@@ -16,6 +16,8 @@ $ git clone https://github.com/padoinedson/exercicio1.git
 
 
 
+# CONFIGURAÇÃO  
+
 ## 1o. trocar o modo de acesso do servidor remoto (http -> ssh)
 
 ### listar servidor remoto
@@ -63,6 +65,8 @@ $ cat ` ~/.ssh/id_ed25519.pub `
 > copie ela para a sua conta  (não cole os espaços ou quebra de linha)
 
 
+
+# UTILIZAÇÃO  
 
 
 ## copiar as modificações do servidor para o repositório local
