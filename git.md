@@ -68,6 +68,15 @@ $ git commit -a -m "primeiro commit"
 >		-a  			→ todos os arquivos alterados 
 >		-m 	"texto"  	→ adiciona uma mensagem
 
+
+| Opção      | Descrição |
+| ----------- | ----------- |
+|  -a    | todos os arquivos alterados       |
+|  -m 	"texto"    | adiciona uma mensagem       |
+ 
+
+
+
 $ git status
 
 
