@@ -56,12 +56,13 @@ $ git remote -v
 
 $ sudo apt install ssh
 
-$ ssh-keygen -t ed25519 -C "padoinedson@github.com"
-> substitua `padoinedson` pelo seu `login` no github  
+> substitua `seu-login-no-git-hub` pelo seu `login` no github  
+
+$ ssh-keygen -t ed25519 -C "seu-login-no-git-hub@github.com"
 
 $ eval ` "$(ssh-agent -s)"  `
 
-$ ssh -vT ` padoinedson@github.com `
+$ ssh -vT ` seu-login-no-git-hub@github.com `
 
 $ ssh-add `~/.ssh/id_ed25519`
 
