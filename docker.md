@@ -44,7 +44,7 @@ Opções:
 
 ### Adicionar usuário ao grupo docker para evitar sudo
 
-		$ sudo usermod -a -G docker sd2021
+		$ sudo usermod -a -G docker <<seu-user-name>>
 
 
 
@@ -441,7 +441,7 @@ Exemplo Dockerfile com serviço de rede:
 
 > 	criar um container conectando a pasta no home com a pasta do container
 
-	$ sudo docker run -v /home/sd2021/meudir:/test -i -t ubuntu /bin/bash
+	$ sudo docker run -v /home/sd2022/meudir:/test -i -t ubuntu /bin/bash
 
 
 >			dica:  
@@ -529,9 +529,9 @@ https://docs.docker.com/engine/reference/commandline/image_ls/
 200.132.195.12
 
 
-scp Install-Docker-on-Linux-Mint.sh sd2021@200.132.195.199:/home/sd2021
+scp Install-Docker-on-Linux-Mint.sh sd2022@200.132.195.199:/home/sd2022
 
-scp sd2021@200.132.195.199:/home/sd2021/nome.c .
+scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 
 
 
