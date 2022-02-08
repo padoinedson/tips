@@ -9,6 +9,7 @@
 https://firebase.google.com/?hl=pt-br
 
 
+
 ### Console:
  
 https://console.firebase.google.com/u/0/?pli=1
@@ -68,7 +69,7 @@ $ curl -X GET 'https://teste2510-31cb1.firebaseio.com/clientes.json'
 
 #### verbos DELETE e GET 
 
-$  curl -X DELETE 'https://teste2510-31cb1.firebaseio.com/clientes/100.json'  
+$ curl -X DELETE 'https://teste2510-31cb1.firebaseio.com/clientes/100.json'  
 
 $ curl -X GET 'https://teste2510-31cb1.firebaseio.com/clientes.json'  
 
