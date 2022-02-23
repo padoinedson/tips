@@ -103,7 +103,7 @@ $ git log
 
 
 
-## recuperar arquivo do último commit
+## recuperar arquivo do último commit  
 
 $ echo "Chile" >> a.txt 
 
@@ -121,7 +121,7 @@ $ cat a.txt
 
 
 
-## recuperar versão antiga 
+## recuperar versão antiga   
  
 
 $ git log
@@ -136,7 +136,7 @@ $ cat a.txt
 
 
 
-## remover arquivo do index
+## remover arquivo do index  
 
 $ git rm a.txt
 
@@ -145,7 +145,7 @@ $ git rm a.txt
 
 
 
-## excluir o arquivo
+## excluir o arquivo  
 
 
 $  git rm a.txt 
@@ -158,7 +158,7 @@ $  git status
 
 
 
-## criar um branch
+## criar um branch  
 
 
 $git branch testing
@@ -226,3 +226,4 @@ criar um arquivo com nome `.gitignore` na pasta
 > ## Dicas git  
 > Padoin, Edson Luiz  
 > padoin@unijui.edu.br
+
