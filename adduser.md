@@ -39,7 +39,8 @@ $ passwd
 
 
 
-## fazer logoff e entrar com o seu usuário
+
+> fazer logoff e entrar com o seu usuário
 
 
 
