@@ -6,7 +6,7 @@
 
 ## adicionar usuário
 
-> comando adduser - sudo adduser <nameuser>  
+> comando adduser - sudo adduser `nome do usuario`  
 > Exemplo:
 
 $ sudo adduser padoin 
@@ -15,7 +15,7 @@ $ sudo adduser padoin
 
 ## adicionar usuário ao grupo root
 
-> comando usermod - sudo usermod -a -G <namegrp> <nameuser>  
+> comando usermod - sudo usermod -a -G `namegrp` `nome do usuario`  
 > Exemplo:
 
 $ sudo usermod -a -G sudo padoin
@@ -23,7 +23,7 @@ $ sudo usermod -a -G sudo padoin
 
 ## trocar de usuário 
 
-> comando su - su <username>  
+> comando su - su `nome do usuario`  
 > Exemplo: 
 
 $ su padoin
