@@ -2,14 +2,16 @@
 
 
 
+>troque `padoin` nos exemplos pelo seu `nome/login`
+
 
 
 ## adicionar usuário
 
 > comando adduser - sudo adduser `nome do usuario`  
-> Exemplo:
+> Exemplo: 
 
-$ sudo adduser padoin 
+$ sudo adduser padoin  
 
 
 
