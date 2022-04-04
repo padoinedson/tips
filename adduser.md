@@ -2,7 +2,7 @@
 
 
 
->troque `padoin` nos exemplos pelo seu `nome/login`
+>troque `padoin` nos exemplos pelo seu `nome` - este será o seu `login`
 
 
 
