@@ -21,6 +21,8 @@ $ nano ~/.screenrc
 > 	hardstatus alwayslastline
 
 
+
+
 ## dicas de utilização no screen
 
 * entrar no screen
