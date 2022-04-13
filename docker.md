@@ -38,13 +38,16 @@ Opções:
 	$ wget -qO- https://get.docker.com  
 
 
+> 7 --> Mint 20
 
+	$ sudo apt install docker
+	$ sudo apt install docker.io 
 
 
 
 ### Adicionar usuário ao grupo docker para evitar sudo
 
-		$ sudo usermod -a -G docker <<seu-user-name>>
+	$ sudo usermod -a -G docker <<seu-user-name>>
 
 
 
@@ -59,7 +62,7 @@ Opções:
 	$ pgrep docker  
 	ou  
 	$ sudo systemctl status docker  
-			q (quit) para sair  
+		q (quit) para sair  
 
 
 ### Start o docker
@@ -69,7 +72,7 @@ Opções:
 
 ### Info do docker
 
-		$ docker info
+		$ sudo docker info
 
 
 
