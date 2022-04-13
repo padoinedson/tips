@@ -117,9 +117,9 @@ Opções:
 
 
 
-###  Baixar/instalar uma imagem prontas
+###  Baixar/instalar imagens prontas
 
-		 			$ sudo docker pull `nome_da_imagem`  
+		 	***sudo docker pull `nome_da_imagem`  ***
 			
 > 			$ sudo docker pull ubuntu
 
