@@ -542,20 +542,19 @@ scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 ## Atividade 14 ---- docker com nginx
 
 
-
 > rodar 
-	$ docker run nginx  
+	$ docker run nginx   
 
-> com nome  
-	$ docker run --name nginx nginx  
+> com nome   
+	$ docker run --name nginx nginx   
 
-> com porta  
+> com porta   
 
 	$ docker run --name nginx -p 8080:80 nginx  
 
-> 			para testar:
+> 			para testar:  
 > 								a) no browser digite: localhost:8080  
-> 								b) em outro terminal digite: lynx localhost:8080
+> 								b) em outro terminal digite: lynx localhost:8080  
 
 > completo
 
@@ -564,11 +563,12 @@ scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 
 docker exec -it nginx bash 
 
-$	cd /usr/share/nginx/html/  
+$	cd /usr/share/nginx/html/    
 $	apt update   
 $	apt install vim   
 $	vi index.html  
-		alterar o arquivo  
+>		alterar o arquivo  
+
 
 >			para testar:   
 >				 em outro terminal digite: lynx localhost:8080   
