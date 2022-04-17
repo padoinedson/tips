@@ -548,28 +548,28 @@ scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 ### executar o container com nome   
 	$ docker run --name nginx nginx   
 
-### executar o container com porta   
+### executar o container com nome e com porta   
 
 	$ docker run --name nginx -p 8080:80 nginx  
+
+### executar o container com nome e com porta removendo anteriores
+	$ docker run --rm --name nginx -p 8080:80 nginx
 
 ### testar  
 > a) no browser digite:  
 	localhost:8080  
 
-> b) em outro terminal digite: 
+> b) em outro terminal digite:  
 	$ lynx localhost:8080  
 
-> completo
 
-	$ docker run --rm --name nginx -p 8080:80 nginx
+### atualizar a página web
 
-
-docker exec -it nginx bash 
-
-$	cd /usr/share/nginx/html/    
-$	apt update   
-$	apt install vim   
-$	vi index.html  
+	$ docker exec -it nginx bash  
+	$	cd /usr/share/nginx/html/    
+	$	apt update   
+	$	apt install vim   
+	$	vi index.html  
 >		alterar o arquivo  
 
 
