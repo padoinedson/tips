@@ -564,24 +564,24 @@ scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 
 docker exec -it nginx bash 
 
-	cd /usr/share/nginx/html/  
-	apt update  
-	apt install vim  
-	vi index.html  
-		altera o arquivo
+$	cd /usr/share/nginx/html/  
+$	apt update   
+$	apt install vim   
+$	vi index.html  
+		alterar o arquivo  
 
->			para testar:  
->				 em outro terminal digite: lynx localhost:8080  
-
-
-> com volume ----compartilhando a pasta
+>			para testar:   
+>				 em outro terminal digite: lynx localhost:8080   
 
 
-	$ mkdir www
+> com volume ----compartilhando a pasta  
 
-	$ docker run --rm --name nginx -p 8080:80 -v ~/www:/usr/share/nginx/html nginx
 
-	$ cd www  
+	$ mkdir www  
+
+	$ docker run --rm --name nginx -p 8080:80 -v ~/www:/usr/share/nginx/html nginx  
+
+	$ cd www   
 
 	$ vi index.html  
 >						  <!DOCTYPE html>
@@ -594,7 +594,7 @@ docker exec -it nginx bash
 >							</body>
 >							</html>
 
->	para testar:
+>	para testar:   
 >      em outro terminal digite: lynx localhost:8080
 
 
