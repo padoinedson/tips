@@ -66,27 +66,27 @@ $ /usr/bin/mongo
 
 
 
-### atividade 1 - docker mongo
+### atividade 1 - docker mongo  
 
 
-$ sudo docker search mongo
-$ sudo docker pull mongo
-$ sudo docker run -it --name mongodb  mongo   /bin/bash
+$ sudo docker search mongo  
+$ sudo docker pull mongo  
+$ sudo docker run -it --name mongodb  mongo   /bin/bash  
 
 
-$ sudo systemctl enable mongod
+$ sudo systemctl enable mongod   
 
 
-mongo --eval 'db.runCommand({ connectionStatus: 1 })'
+mongo --eval 'db.runCommand({ connectionStatus: 1 })'  
 
 
-sudo systemctl start mongod
-ou
-sudo service mongod start
+$ sudo systemctl start mongod  
+ou  
+$ sudo service mongod start  
 
-sudo systemctl status mongod
-ou
-sudo service mongod status
+$ sudo systemctl status mongod  
+ou  
+$ sudo service mongod status  
 
 
 
