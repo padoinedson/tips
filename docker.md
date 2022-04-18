@@ -437,14 +437,15 @@ Exemplo Dockerfile com serviço de rede:
 
 
  
-> 	criar uma pasta com seu nome
+> 	criar uma pasta no seu home
 	
+	$ cd ~
 	$ mkdir meudir
 	
 
-> 	criar um container conectando a pasta no home com a pasta do container
+> 	criar um container conectando a pasta no seu home com a pasta do container
 
-	$ sudo docker run -v /home/sd2022/meudir:/test -i -t ubuntu /bin/bash
+	$ sudo docker run -v /home/padoin/meudir:/test -i -t ubuntu /bin/bash
 
 
 >			dica:  
@@ -452,22 +453,24 @@ Exemplo Dockerfile com serviço de rede:
 >			- a pasta test será criada dentro do container  
 
 
+> para testar crie e edite arquivos no 
+>	diretorio_do_home chamado meudir e no diretorio_do_container chamado de test 
+
 
 
 
 ## Atividade 11 ---- FUNÇÕES AVANÇADAS 
 
 
-
 ###		Salvando (committing) um container
 
-			$ sudo docker commit 0812726e17d0  ubuntu:2
-
-
-
+			$ sudo docker commit CONTAINER_ID  ubuntu:2
+			
 
 >			dica:  
 >			- será criado uma nova imagem com nome ubuntu:2 
+>		  digite o comando para verificar
+			$ sudo docker images
 
 
 
