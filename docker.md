@@ -7,41 +7,43 @@
 
 Opções:  
 
+> --> Mint 20
 
-> 1--> Shell - arquivo baixado na pasta  
-
-	$ sudo sh Install-Docker-on-Linux-Mint.sh  
-
-
-> 2--> Oficial docker   
-
-	https://docs.docker.com/install/linux/docker-ce/ubuntu/  
+	$ sudo apt install docker
+	$ sudo apt install docker.io 
 
 
-> 3--> Linux Mint 19:  
+> --> Linux Mint 19:  
 
 	https://gist.github.com/sirkkalap/e87cd580a47b180a7d32  
 
 
-> 4--> Linux Mint 18:  
+> --> Linux Mint 18:  
 
 	https://gist.github.com/andrewelkins/1adc587feb610f586f8f40b50b7efc3a#file-install-docker-on-linux-mint-18-sh  
 
 
-> 5--> Ubuntu de 64 Bits, versão 13.04:  
+
+
+> --> Shell - arquivo baixado na pasta  
+
+	$ sudo sh Install-Docker-on-Linux-Mint.sh  
+
+
+> --> Oficial docker   
+
+	https://docs.docker.com/install/linux/docker-ce/ubuntu/  
+
+
+> --> Ubuntu de 64 Bits, versão 13.04:  
 
 	https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-docker-primeiros-passos-pt  
 
 
-> 6--> Direto do shell  
+> --> Direto do shell  
 
 	$ wget -qO- https://get.docker.com  
 
-
-> 7 --> Mint 20
-
-	$ sudo apt install docker
-	$ sudo apt install docker.io 
 
 
 
@@ -468,8 +470,9 @@ Exemplo Dockerfile com serviço de rede:
 			
 
 >			dica:  
->			- será criado uma nova imagem com nome ubuntu:2 
->		  digite o comando para verificar
+>			- será criado uma nova imagem com nome ubuntu:2   
+>		  digite o comando para verificar  
+
 			$ sudo docker images
 
 
@@ -478,7 +481,6 @@ Exemplo Dockerfile com serviço de rede:
 
 
 ## Atividade 12 ---- FUNÇÕES AVANÇADAS 
-
 
 
 #### Parar docker
@@ -499,16 +501,13 @@ Exemplo Dockerfile com serviço de rede:
 ## Atividade 13 ---- FUNÇÕES AVANÇADAS 
 
 
-
 	docker build ...  
 	docker push ...  
 
  
 
 
-
-
-### local imagens e containers
+### verificar local das imagens e containers
 
 
 	$ sudo ls  /var/lib/docker/containers -l  
@@ -517,27 +516,6 @@ Exemplo Dockerfile com serviço de rede:
 
 
 
-
-
-### Ref
-
-https://docs.docker.com/
-
-https://docs.docker.com/engine/reference/commandline/image_ls/
-
-
-
-
-
-200.132.195.199
-200.132.195.2
-200.132.194.204
-200.132.195.12
-
-
-scp Install-Docker-on-Linux-Mint.sh sd2022@200.132.195.199:/home/sd2022
-
-scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 
 
 
@@ -556,7 +534,7 @@ scp sd2022@200.132.195.199:/home/sd2022/nome.c .
 	$ docker run --name nginx -p 8080:80 nginx  
 
 ### executar o container com nome e com porta removendo anteriores
-	$ docker run --rm --name nginx -p 8080:80 nginx
+	$ sudo docker run --rm --name nginx -p 8080:80 nginx
 
 ### testar  
 > a) no browser digite:  
@@ -568,7 +546,10 @@ ou
 
 ### atualizar a página web
 
-$ docker exec -it nginx bash  
+$ sudo docker exec -it nginx bash
+
+> no container:
+
 $	cd /usr/share/nginx/html/    
 $	apt update   
 $	apt install vim   
@@ -689,5 +670,20 @@ ou
 > 									- em outro terminal $ lynx localhost:8080
 
 
+
+
+
+
+
+
+
+
+### Ref
+
+https://docs.docker.com/
+
+https://docs.docker.com/engine/reference/commandline/image_ls/
+
+https://aws.amazon.com/pt/getting-started/deep-dive-containers/?e=gs2020&p=gsrc
 
 
