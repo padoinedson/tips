@@ -55,21 +55,31 @@ Opções:
 
 
  
-### Verificar se o docker está rodando
+### Verificar se o docker está rodando - Managing Docker 
 
-	ps -fax  
-	top  
+#### Getting the Status
+	$ top  
+	$ ps -fax  
 	$ ps -ef | grep docker  
-	ou  
 	$ pgrep docker  
-	ou  
-	$ sudo systemctl status docker  
-		q (quit) para sair  
+	$ sudo systemctl status docker   -->		q (quit) para sair  
 
 
-### Start o docker
+#### Start o docker
 
 		$ sudo systemctl start docker
+
+
+#### Parar docker
+
+	$ pgrep docker
+
+
+	$ sudo systemctl stop docker  
+	ou  
+	$ sudo /etc/init.d/docker stop  
+
+
 
 
 ### Info do docker
@@ -483,14 +493,6 @@ Exemplo Dockerfile com serviço de rede:
 ## Atividade 12 ---- FUNÇÕES AVANÇADAS 
 
 
-#### Parar docker
-
-	$ pgrep docker
-
-
-	$ sudo systemctl stop docker  
-	ou  
-	$ sudo /etc/init.d/docker stop  
 
 
 
