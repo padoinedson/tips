@@ -55,7 +55,7 @@ Opções:
 
 
  
-### Verificar se o docker está rodando - Managing Docker 
+### Managing Docker 
 
 #### Getting the Status
 	$ top  
@@ -65,24 +65,19 @@ Opções:
 	$ sudo systemctl status docker   -->		q (quit) para sair  
 
 
-#### Start o docker
+#### Start the docker
 
 		$ sudo systemctl start docker
 
 
-#### Parar docker
-
-	$ pgrep docker
-
+#### Stop the docker
 
 	$ sudo systemctl stop docker  
 	ou  
 	$ sudo /etc/init.d/docker stop  
 
 
-
-
-### Info do docker
+#### Docker Info
 
 		$ sudo docker info
 
