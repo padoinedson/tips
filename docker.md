@@ -54,8 +54,7 @@ Opções:
 
 
 
- 
-### Managing Docker 
+## Atividade 1.1 ---- Managing the Docker 
 
 #### Getting the Status
 	$ top  
@@ -67,7 +66,7 @@ Opções:
 
 #### Start the docker
 
-		$ sudo systemctl start docker
+	$ sudo systemctl start docker
 
 
 #### Stop the docker
@@ -79,13 +78,14 @@ Opções:
 
 #### Docker Info
 
-		$ sudo docker info
+	$ sudo docker info
 
 
 
 
-### Testar o docker
- 
+## Atividade 1.2 ---- Testing the Docker 
+
+
 	$ docker run hello-world
 
 
