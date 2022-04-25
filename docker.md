@@ -131,12 +131,12 @@ Opções:
 > 			$ sudo docker pull ubuntu
 
 
+
 ###  Inspecionar imagens
 
 		 	sudo docker image inspect `IMAGE_ID`
 			
 > 			$ sudo docker image inspect IMAGE_ID 
-
 
 
 
@@ -197,6 +197,15 @@ Opções:
 >								--user , -u			Username or UID (format: <name|uid>[:<group|gid>])  
 
 
+
+
+###		Entrar em um container em execução
+
+			$ sudo docker exec -it `CONTAINER_ID` bash
+
+
+
+
 ###		Sair de um container em execução
 
 			$ exit
@@ -205,30 +214,31 @@ Opções:
 
 ###		Ativar um container 
 
-			$ sudo docker start CONTAINER ID
+			$ sudo docker start `CONTAINER ID`
 
 
 
 
 ###		Stop um container ativo
 
-			$ sudo docker stop CONTAINER ID
+			$ sudo docker stop `CONTAINER ID`
 
 
 
 
 ###		Excluir  containers
 
-			$ sudo docker rm CONTAINER ID  
+			$ sudo docker rm `CONTAINER ID`  
 
-			$ sudo docker rm --force CONTAINER ID  
+			$ sudo docker rm --force `CONTAINER ID`  
   
 
 
 
+
+
+
 ## Atividade 4 ---- GERENCIAR CONTAINERS
-
-
 
 
 ###		Criar um container ativo em backgroud
