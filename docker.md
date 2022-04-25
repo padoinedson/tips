@@ -131,6 +131,14 @@ Opções:
 > 			$ sudo docker pull ubuntu
 
 
+###  Inspecionar imagens
+
+		 	sudo docker image inspect `IMAGE_ID`
+			
+> 			$ sudo docker image inspect IMAGE_ID 
+
+
+
 
 ###		Excluir imagem
 
