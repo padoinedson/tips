@@ -49,44 +49,44 @@ Opções:
 
 ### Adicionar usuário ao grupo docker para evitar sudo
 
-	$ sudo usermod -a -G docker <<seu-user-name>>
+			$ sudo usermod -a -G docker <<seu-user-name>>
 
 
 
 
-## Atividade 1.1 ---- Managing the Docker 
+## Atividade 1.1 ---- GERENCIAMENTO 
 
-#### Getting the Status
-	$ top  
-	$ ps -fax  
-	$ ps -ef | grep docker  
-	$ pgrep docker  
-	$ sudo systemctl status docker   -->		q (quit) para sair  
-
-
-#### Start the docker
-
-	$ sudo systemctl start docker
+#### Status
+			$ top  
+			$ ps -fax  
+			$ ps -ef | grep docker  
+			$ pgrep docker  
+			$ sudo systemctl status docker   -->		q (quit) para sair  
 
 
-#### Stop the docker
+#### Start 
 
-	$ sudo systemctl stop docker  
-	ou  
-	$ sudo /etc/init.d/docker stop  
+			$ sudo systemctl start docker
 
 
-#### Docker Info
+#### Stop 
 
-	$ sudo docker info
-
-
-
-
-## Atividade 1.2 ---- Testing the Docker 
+			$ sudo systemctl stop docker  
+			ou  
+			$ sudo /etc/init.d/docker stop  
 
 
-	$ docker run hello-world
+#### Info
+
+			$ sudo docker info
+
+
+
+## Atividade 1.2 ---- TESTE
+
+			$ docker run hello-world
+
+
 
 
 
