@@ -52,6 +52,15 @@
 
 
 
+###	checar chaves publicas/privadas 
+	$ cd~  
+	$ cd .ssh
+	$ cat id_rsa  	
+	$ ssh-keygen -y -e -f id_rsa
+	$ cat id_rsa.pub
+
+
+
 
 > ## Dicas ssh  
 > Padoin, Edson Luiz  
