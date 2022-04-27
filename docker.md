@@ -89,18 +89,6 @@ Opções:
 	$ docker run hello-world
 
 
->				To try something more ambitious, you can run an Ubuntu container with:  
->				$ docker run -it ubuntu bash   
-
-> 				Share images, automate workflows, and more with a free Docker ID:  
-> 				https://hub.docker.com/  
-
->				For more examples and ideas, visit:  
->				https://docs.docker.com/get-started/  
-
-
-
-
 
 ## Atividade 2 ---- GERENCIAR IMAGENS PRONTAS  
 
@@ -120,7 +108,12 @@ Opções:
 >			$ sudo docker search mongo  
 
 
+> 		ShareD images:  
+> 		https://hub.docker.com/  
 >			https://hub.docker.com/search/?type=image  
+
+
+
 
 
 
@@ -697,8 +690,9 @@ ou
 
 https://docs.docker.com/
 
+https://docs.docker.com/get-started/  
+
 https://docs.docker.com/engine/reference/commandline/image_ls/
 
 https://aws.amazon.com/pt/getting-started/deep-dive-containers/?e=gs2020&p=gsrc
-
 
