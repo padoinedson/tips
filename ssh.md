@@ -52,6 +52,9 @@
 
 
 
+
+
+
 ###	checar chaves publicas/privadas 
 	$ cd~  
 	$ cd .ssh
