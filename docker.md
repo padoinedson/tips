@@ -103,13 +103,14 @@ Opções:
 
 			sudo docker search `nome_da_imagem`
 
->			$ sudo docker search ubuntu  
+>			Exemplo:  
+> 		$ sudo docker search ubuntu  
 >			$ sudo docker search mysql  
 >			$ sudo docker search mongo  
 
 
-> 		ShareD images:  
-> 		https://hub.docker.com/  
+>			Shared images:  
+>			https://hub.docker.com/  
 >			https://hub.docker.com/search/?type=image  
 
 
@@ -121,7 +122,7 @@ Opções:
 
 		 	sudo docker pull `nome_da_imagem`
 			
-> 			$ sudo docker pull ubuntu
+>			$ sudo docker pull ubuntu
 
 
 
@@ -129,7 +130,7 @@ Opções:
 
 		 	sudo docker image inspect `IMAGE_ID`
 			
-> 			$ sudo docker image inspect IMAGE_ID 
+>			$ sudo docker image inspect IMAGE_ID 
 
 
 
@@ -157,9 +158,12 @@ Opções:
 
 
 			$ sudo docker run php  
-			ou  
-			$ sudo docker run --name padoin3 ubuntu    <---- com nome  
+			$ sudo docker ps -a  
 
+
+###		Criar um container inativo com nome
+
+			$ sudo docker run --name ubuntupadoin ubuntu    
 			$ sudo docker ps -a  
 
 
