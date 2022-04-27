@@ -104,7 +104,7 @@ Opções:
 			sudo docker search `nome_da_imagem`
 
 >			Exemplo:  
-> 		$ sudo docker search ubuntu  
+>			$ sudo docker search ubuntu  
 >			$ sudo docker search mysql  
 >			$ sudo docker search mongo  
 
