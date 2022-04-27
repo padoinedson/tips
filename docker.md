@@ -147,24 +147,34 @@ Opções:
  
 
 
-###		Exibir containers  
+###		Exibir containers ativos
 
-			$ sudo docker ps       <----- lista os ativos   
+			$ sudo docker ps       
 
-			$ sudo docker ps -a    <----- lista todos   
+###		Exibir todos os containers 
+
+			$ sudo docker ps -a    
 
 
-###		Criar um container inativo
+###		Criar um container  
 
 
-			$ sudo docker run php  
+			$ sudo docker run mongo  
 			$ sudo docker ps -a  
 
 
-###		Criar um container inativo com nome
+###		Criar um container com nome
 
 			$ sudo docker run --name ubuntupadoin ubuntu    
 			$ sudo docker ps -a  
+
+
+
+###		Entrar em um container em execução
+
+			$ sudo docker exec -it `CONTAINER_ID` bash
+
+
 
 
 ###		Criar e Executar um container 
@@ -196,11 +206,6 @@ Opções:
 
 
 
-###		Entrar em um container em execução
-
-			$ sudo docker exec -it `CONTAINER_ID` bash
-
-
 
 
 ###		Sair de um container em execução
@@ -211,7 +216,9 @@ Opções:
 
 ###		Ativar um container 
 
-			$ sudo docker start `CONTAINER ID`
+			$ sudo docker start `CONTAINER ID`  
+
+			$ sudo docker ps -a  
 
 
 
@@ -317,7 +324,7 @@ Exemplo Dockerfile com serviço de rede:
 
 ###		Criar a imagem com o arquivo Dockerfile 
 	
->			$ sudo docker build -t <nome_da_minha_imagem:versao> <local a ser criado ponto "." é no local atual >
+>			sudo docker build -t <nome_da_minha_imagem:versao> <local a ser criado ponto "." é no local atual >
 
 			$ sudo docker build -t ubuntu:2903 -f Dockerfile .
 
@@ -535,15 +542,17 @@ Exemplo Dockerfile com serviço de rede:
 ## Atividade 14 ---- docker com nginx
 
 
+## Atividade 14.1 - colocar o servidor no ar
+
 ### executar o container  
-	$ docker run nginx   
+	$ sudo docker run nginx   
 
 ### executar o container com nome   
-	$ docker run --name nginx nginx   
+	$ sudo docker run --name nginx nginx   
 
 ### executar o container com nome e com porta   
 
-	$ docker run --name nginx -p 8080:80 nginx  
+	$ sudo docker run --name nginx -p 8080:80 nginx  
 
 ### executar o container com nome e com porta removendo anteriores
 	$ sudo docker run --rm --name nginx -p 8080:80 nginx
@@ -551,21 +560,21 @@ Exemplo Dockerfile com serviço de rede:
 ### testar  
 > a) no browser digite:  
 	localhost:8080  
-ou  
-> b) em outro terminal digite:  
-	$ lynx localhost:8080  
 
 
-### atualizar a página web
+
+
+
+## Atividade 14.2 - atualizar a página web
 
 $ sudo docker exec -it nginx bash
 
-> no container:
+> dentro do container:
 
 $	cd /usr/share/nginx/html/    
 $	apt update   
-$	apt install vim   
-$	vi index.html  
+$	apt install nano   
+$	nano index.html  
 >		altualizar o arquivo  
 
 
@@ -577,19 +586,22 @@ ou
 	$ lynx localhost:8080  
 
 
+
+## Atividade 14.3 - atualizar a página web
+
 ### executar o container com nome e com porta removendo anteriores, com volume/compartilhando a pasta  
 
 	$ mkdir www  
 
-	$ docker run --rm --name nginx -p 8080:80 -v ~/www:/usr/share/nginx/html nginx  
+	$ sudo docker run --rm --name nginx -p 8080:80 -v ~/www:/usr/share/nginx/html nginx  
 
 	$ cd www   
 
-	$ vi index.html  
+	$ nano index.html  
 >						  <!DOCTYPE html>
 >							<html>
 >							<head>
->							<title>testando!</title>
+>							<title> SD - testando!</title>
 >							</head>
 >							<body>
 >							<h1>testando!</h1>
