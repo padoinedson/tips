@@ -103,6 +103,12 @@ $ git log
 
 
 
+## discartar mudanças de um arquivo local  
+
+$ git restore nome.txt  
+
+
+
 ## recuperar arquivo do último commit  
 
 $ echo "Chile" >> a.txt 
