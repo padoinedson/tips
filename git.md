@@ -73,19 +73,21 @@ $ git commit -a -m "primeiro commit"
 |  -m 	"texto"    | adicionar uma mensagem ao commit       |
  
 
-
-
 $ git status
 
 
+
+
+# HISTÓRICO
+
 ## verificar log
 
-$ git log
+$ git log  
+$ git log  -p "nome_do_arquivo"
 
 
 
-
-## modificar arquivo - adicionar texto ao final do arquivo
+### Atividade - modificar arquivo - adicionar texto ao final do arquivo
 
 $ echo "Argentina" >> a.txt 
 
@@ -103,13 +105,11 @@ $ git log
 
 
 
-## discartar mudanças de um arquivo local  
-
-$ git restore nome.txt  
 
 
+# DESFAZER
 
-## recuperar arquivo do último commit  
+## recuperar arquivo do último commit /descarar alterações locais
 
 $ echo "Chile" >> a.txt 
 
@@ -126,20 +126,21 @@ $ git diff
 $ cat a.txt
 
 
+## descartar mudanças de um arquivo local  
 
-## recuperar versão antiga   
+$ git restore "nome_do_arquivo" 
+
+
+## desfazer/recuperar versão antiga   
  
 
 $ git log
 
 $ cat a.txt
 
-$ git reset --hard <numero>
+$ git reset --hard <número>
 
 $ cat a.txt
-
-
-
 
 
 ## remover arquivo do index  
@@ -163,11 +164,18 @@ $  git status
 
 
 
+# BRANCHES
+
+
+## listar todos os branches  
+
+$ git branch -av
+
+
 
 ## criar um branch  
 
-
-$git branch testing
+$ git branch testing
 
 $ git log
 > exibe os dois branches(master, testing) --- o HEAD aponta para master  
@@ -176,7 +184,7 @@ $ git log
 
 
 
-## alternar entre branches
+## alternar entre branches/mudar ramo
 
 $ git checkout testing
 
@@ -202,6 +210,8 @@ $ git commit -m "adicionei d.c"
 $ git checkout master  
 
 
+
+# FUNDIR 
 
 
 ## merge de um branch no master
