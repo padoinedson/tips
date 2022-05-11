@@ -23,7 +23,7 @@ $ md5sum  -c a.txt hashcriado
 
 
  
-###	checar chaves publicas/privadas 
+###	checar chaves ssh publicas/privadas 
 $ cd~  
 $ cd .ssh  
 $ cat id_rsa  
