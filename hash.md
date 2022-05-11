@@ -26,7 +26,7 @@ $ md5sum  -c a.txt hashcriado
 ###	checar chaves publicas/privadas 
 $ cd~  
 $ cd .ssh  
-$ cat id_rsa   	
+$ cat id_rsa  
 $ ssh-keygen -y -e -f id_rsa  
 $ cat id_rsa.pub  
 
