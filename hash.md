@@ -18,17 +18,17 @@ $ md5sum  a.txt
 
 ## validar o hash de um arquivo
 
-$ md5sum  a.txt > hashcriado
-$ md5sum  -c a.txt hashcriado
+$ md5sum  a.txt > hashcriado  
+$ md5sum  -c a.txt hashcriado  
 
 
  
 ###	checar chaves publicas/privadas 
 $ cd~  
-$ cd .ssh
-$ cat id_rsa  	
-$ ssh-keygen -y -e -f id_rsa
-$ cat id_rsa.pub
+$ cd .ssh  
+$ cat id_rsa   	
+$ ssh-keygen -y -e -f id_rsa  
+$ cat id_rsa.pub  
 
 
 
