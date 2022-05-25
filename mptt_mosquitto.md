@@ -44,6 +44,20 @@
 		$ top  
 		$ ps -fax  
 
+		$ sudo systemctl status mosquitto.service  
+
+#### Start 
+
+			$ sudo systemctl start mosquitto.service  
+
+#### Stop 
+
+			$ sudo systemctl stop mosquitto.service  
+			ou  
+			$ sudo /etc/init.d/docker stop  
+
+
+
 
 
 
@@ -165,6 +179,14 @@
 		mosquitto_sub -h test.mosquitto.org -t "chamada/2204"  
 
 		mosquitto_pub -h test.mosquitto.org -m "padoin" -t "chamadasd"  
+
+
+
+
+
+
+
+
 
 
 
