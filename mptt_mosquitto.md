@@ -63,7 +63,7 @@
 ##	Test 1 - localhost
  
 
-> 		Terminal 1:
+		Terminal 1:
 
 		$ mosquitto_sub -v -t '#'    
 
@@ -71,18 +71,19 @@
 >				-t topic  
 >				-p port  
 
-> 		Terminal 2:
+		Terminal 2:
 
 		$ mosquitto_pub -h localhost -m "22.5" -t sensor1sala  
 
 
 
-####	Test 1.1 - localhost
+###	Test 1.1 - localhost
 
 
 		Terminal 1:  
 
 		$ mosquitto_sub -v -t 'salajantar'  
+
 
 		Terminal 2:  
 
@@ -90,7 +91,7 @@
 
 
 
-####	Test 1.2 - localhost com erro
+###	Test 1.2 - localhost com erro
 
 
 		Terminal 1:  
@@ -104,7 +105,7 @@
 
 
 
-####	Test 2 - localhost com bash
+##	Test 2 - localhost com bash
 
 
 		Terminal 1:  
