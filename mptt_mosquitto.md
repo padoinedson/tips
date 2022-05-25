@@ -27,8 +27,6 @@
 
 ## Atividade 1 ---- INSTALAÇÃO 
 
-###	mosquitto - install  
-
 
 		$ sudo apt install mosquitto  
 
@@ -62,10 +60,10 @@
 
 
 
-####	Test 1 - localhost
+##	Test 1 - localhost
  
 
-		Terminal 1:
+> 		Terminal 1:
 
 		$ mosquitto_sub -v -t '#'    
 
@@ -73,7 +71,7 @@
 >				-t topic  
 >				-p port  
 
-		Terminal 2:
+> 		Terminal 2:
 
 		$ mosquitto_pub -h localhost -m "22.5" -t sensor1sala  
 
