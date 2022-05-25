@@ -22,17 +22,27 @@
 
 
 
-### mosquitto
 
+# Mosquitto
 
-####	mosquitto - install  
+## Atividade 1 ---- INSTALAÇÃO 
+
+###	mosquitto - install  
 
 
 		$ sudo apt install mosquitto  
 
 		$ sudo apt install mosquitto-clients  
 
+
+## Atividade 1.1 ---- GERENCIAMENTO 
+
+#### Status
+
 		$ pgrep mosquitto  
+		$ ps -ef | grep mosquitto  
+		$ top  
+		$ ps -fax  
 
 
 
