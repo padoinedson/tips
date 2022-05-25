@@ -172,12 +172,12 @@
 
 		Terminal 1:  
 
-		mosquitto_sub -h test.mosquitto.org -t "chamada/2405"  
+		$ mosquitto_sub -h test.mosquitto.org -t "chamada/2405"  
 
 
 		Terminal 2:  
 
-		mosquitto_pub -h test.mosquitto.org -m "padoin" -t "chamada/2405"  
+		$ mosquitto_pub -h test.mosquitto.org -m "padoin" -t "chamada/2405"  
 
 
 
@@ -191,7 +191,7 @@
 
 
 
-####	Test 4 - mosquitto com Python - paho
+##	Test 4 - mosquitto com Python - paho
 
 
 
@@ -235,11 +235,7 @@
 
 
 
-####	mosquitto - shutdown
 
-		$ pgrep mosquitto  
-
-		$ sudo kill -9 <pid>  
 
 
 
