@@ -3,8 +3,7 @@
 
 
 
-
-## instalar o SSHFS
+## Atividade 1 ---- INSTALAÇÃO 
 
 ### Servidor
 
@@ -20,34 +19,31 @@ $ sudo apt install sshfs
 
 
 
-## utilização 
+##	Test 1 - 
 
 ### Cliente
 
-> criar um diretorio onde será mapeado o servidor
+> criar um diretorio onde será mapeado o sistema de arquivos do servidor
  
 $ mkdir nome2904
 
 
-#### -- conectar -- mapear o servidor no diretório criado no cliente
+
+
+#### conectar/mapear o sistema de arquivos do servidor no diretório criado no cliente
 
 > sshfs	user@IPserver:PATH	   		 pasta_local	  
 
 $ sshfs `sd2022@200.132.194.75:/home/sd2022/`   `nome2904/`
- 
-
- 
+  
 $ cd nome2904/
 
 $ ls
 
-$ echo "testando o sshfs......" > nome.txt
 
 
 
-
-
-#### -- desconectar
+#### desconectar
 
 $ cd .. ou cd ou cd ~
 
