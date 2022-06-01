@@ -34,7 +34,7 @@ $ mkdir nome2904
 
 > sshfs	user@IPserver:PATH	   		 pasta_local	  
 
-$ sshfs `sd2022@200.132.194.75:/home/sd2022/`   `nome2904/`
+$ sshfs `sd2022@200.132.195.243:/home/sd2022/`   `nome2904/`
   
 $ cd nome2904/
 
