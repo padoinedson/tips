@@ -7,8 +7,8 @@
 
 ### criar uma pasta para colocar os dados do blockchain
 > esta pasta vai ser compartilhada com o container
-$ cd ~
-$ mkdir ethereum
+$ cd ~  
+$ mkdir ethereum  
 
 
 ### salvar o arquivo genesis.json dentro da pasta ethereum
