@@ -110,17 +110,19 @@ $ geth --help
 
 ### criar as contas
 > no 2o terminal 
-$ geth account new --datadir ~/padoin1
+
+$ geth account new --datadir ~/padoin1  
+
 > no 3o terminal 
+
 $ geth account new --datadir ~/padoin2
  
 
+> guardar a sua chave pública
  
-0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434
-0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D
 
 
-### visualizar chaves privadas das contas
+### visualizar chaves privadas das contas   
 $ cat /root/padoin1/keystore/nome_do_arquivo_indicado_na_criacao
 
 
