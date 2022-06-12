@@ -285,24 +285,24 @@ $ txpool.status
 >      }  
 
 
-### ver o novo saldo das contas
+### verificar o novo saldo das contas
 $ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")
 $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
 
 
 
-## --- CONTAS
+        ## --- CONTAS
 
 
-### criar conta dentro do nó
-personal.newAccount()
+        ### criar conta dentro do nó
+        personal.newAccount()
 
-### exibir todas as contas
-$ eth.accounts
+        ### exibir todas as contas
+        $ eth.accounts
 
-### ver o saldo de cada conta
-$ eth.getBalance("0x2252c45b06524e132b57b1fd3fbf65d2e2e8fb5c")
+        ### ver o saldo de cada conta
+        $ eth.getBalance("0x2252c45b06524e132b57b1fd3fbf65d2e2e8fb5c")
 
 
 
