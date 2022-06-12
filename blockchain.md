@@ -262,7 +262,7 @@ $ eth.sendTransaction({from:"0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434", to:"0x
 
 ### verificar o pool de transações
 $ txpool.status
-> verifique que a transação está pendente
+> verifique que a transação está pendente  
 >      {  
 >        pending: 1,  
 >        queued: 0  
