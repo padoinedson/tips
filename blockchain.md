@@ -132,14 +132,14 @@ $ cat /root/padoin1/keystore/nome_do_arquivo_indicado_na_criacao
 ### atualizar as chaves públicas das contas criadas no arquivo genesis.json
 > editar os campos alloc (chave publica e valor inicial wei - eth)   
 
-"alloc": {
-  "<0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434>": {
-    "1000>"
-  },
-  "<0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D>": {
-    "1500>"
-  }
-}
+      "alloc": {  
+        "<0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434>": {  
+          "5000>"  
+        },  
+        "<0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D>": {  
+          "6000>"  
+        }  
+      }  
 
 ### conferir arquivo genesis 
 $ cat /root/genesis.json
