@@ -5,7 +5,7 @@
 
 ## --- CONTAINER 
 
-### criar uma pasta para colocar os dados do blockchain
+### criar uma pasta para os dados do blockchain
 > esta pasta vai ser compartilhada com o container  
 
 $ cd ~  
@@ -45,7 +45,7 @@ $ mkdir ethereum
               }
 
 > nossa blockchain tem chainId igual a 2022  
-> este arquivo genesis.json está cofigurado para criar dois usuarios com os valores (5000 e 6000)
+> o arquivo genesis.json está cofigurado para criar dois usuarios com os valores (5000 e 6000)
 > atualizar os campos do alloc com as chaves públicas dos usuários criados
 
 
@@ -53,6 +53,7 @@ $ mkdir ethereum
 ### baixar imagem
 > no hub do docker tem várias imagens prontas  
 > vamos usar esta: https://hub.docker.com/r/ethereum/client-go    
+
 $ sudo docker pull ethereum/client-go  
 
 
