@@ -67,24 +67,24 @@ $ sudo docker pull ethereum/client-go
 
 $ sudo docker run -d --name ethereum-node -v  $HOME/ethereum:/root -p 8545:8545 -p 8544:8544 -p 30301:30301 -p 30302:30302 -it --entrypoint=/bin/sh ethereum/client-go
 
-      > se você já havia criado o conatiner e não excluido
-      $ sudo docker start ethereum-node
-      $ sudo docker ps
+          > se você já havia criado o container e não excluido
+          $ sudo docker start ethereum-node
+          $ sudo docker ps
 
 
 > no 2o terminal - acessar o container
 
-  $ sudo docker exec -it ethereum-node sh 
+  $ sudo docker exec -it ethereum-node sh   
   $ cd /root
 
   > conferir se o arquivo genesis.json está no local
-  
+
   $ ls
 
 
 > no 3o terminal - acessar o container
 
-  $ sudo docker exec -it ethereum-node sh 
+  $ sudo docker exec -it ethereum-node sh   
   $ cd /root
 
   > conferir se o arquivo genesis.json está no local 
