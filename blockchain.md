@@ -226,10 +226,11 @@ $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
 ## --- MINERAR
 
-### minerar - 10 indica qtde threads
+### minerar 
+> 10 indica a quantidade de threads  
 $ miner.start(10)
 
-### stop miner
+### para mineração
 $ miner.stop()
 
 ### verificar o sado - conferir os ganhos da mineração
