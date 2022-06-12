@@ -190,13 +190,12 @@ $ net.peerCount
 
 
 ### adiciona um par
-$ admin.addPeer("enode do outro no - entre aspas);
+$ admin.addPeer("enode do outro nó");
+> informado quando colocamos o nó para rodar
 
 
 ### visualizar se adicionou os pares
 $ net.peerCount
-
-
 
 
 ### visualizar informações sobre os pares
@@ -214,12 +213,12 @@ $ admin.nodeInfo
 
 ### exibe as contas
 $ eth.accounts
-> em cada terminal tem uma conta  
+> em cada terminal temos uma conta  
 
 
 ### verificar o saldo das contas
-$ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")
-$ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
+$ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")  
+$ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")  
 
 
 
