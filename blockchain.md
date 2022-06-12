@@ -113,6 +113,8 @@ $ geth --help
 
 $ geth account new --datadir ~/padoin1  
 
+> guardar a sua chave pública
+
 > no 3o terminal 
 
 $ geth account new --datadir ~/padoin2
