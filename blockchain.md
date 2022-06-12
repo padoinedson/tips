@@ -168,10 +168,12 @@ $ geth init genesis.json --datadir ~/padoin2
 ### coloca os nós da rede para rodar 
 
 > no 2o terminal 
+
 $ geth --datadir ~/padoin1 --networkid 2022 --http --http.api 'txpool,eth,net,web3,personal,admin,miner' --http.corsdomain '*' --allow-insecure-unlock console
 
 
 > no 3o terminal 
+
 $ geth --datadir ~/padoin2 --networkid 2022 --http --http.api 'txpool,eth,net,web3,personal,admin,miner' --http.corsdomain '*' --port 30302  --http.port 8544  --allow-insecure-unlock console
 
 
