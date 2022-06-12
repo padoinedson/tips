@@ -254,12 +254,10 @@ $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
 
 ### libera a conta para uso
-> personal.unlockAccount(<address>,<password>,<duration in sec>)  
 $ personal.unlockAccount("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")  
 
 
 ###  envia uma transação
-> eth.sendTransaction({from:<address>, to:<address> , value: <value>})  
 $ eth.sendTransaction({from:"0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434", to:"0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D", value:1000, gas:21000})
 
 ### verifica o pool de transações
