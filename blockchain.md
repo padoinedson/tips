@@ -275,12 +275,14 @@ $ miner.start(10)
 ### stop miner
 $ miner.stop()
 
+
+### verificar o pool de transações
 $ txpool.status
-> verifique que a transação foi realizada
->      {
->        pending: 0,
->        queued: 0
->      }
+> verifique que a transação foi realizada  
+>      {  
+>        pending: 0,  
+>        queued: 0  
+>      }  
 
 
 ### ver o novo saldo das contas
