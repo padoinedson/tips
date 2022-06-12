@@ -150,11 +150,13 @@ $ cat /root/genesis.json
 
 ### inicializa os nós na rede 
 > no 2o terminal  
+
 $ cd /root  
 $ geth init genesis.json --datadir ~/padoin1
 
 
 > no 3o terminal  
+
 $ cd /root  
 $ geth init genesis.json --datadir ~/padoin2
 
