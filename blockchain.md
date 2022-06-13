@@ -263,7 +263,7 @@ $ personal.unlockAccount("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")
 
 
 ###  enviar uma transação
-$ eth.sendTransaction({from:"0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434", to:"0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D", value:1000, gas:21000})
+$ eth.sendTransaction({from:"0xc424b25eec9108e5c58b4923d627ccc1061dea29", to:"0x8bd8b972b9894be3c2a3ed4b4ed579a72ac95a4b", value:1000, gas:21000})
 
 ### verificar o pool de transações
 $ txpool.status
@@ -295,6 +295,9 @@ $ txpool.status
 $ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")  
 $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
+
+### sair do console  
+$ exit
 
 
 
