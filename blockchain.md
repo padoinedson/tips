@@ -148,7 +148,7 @@ $ cat /root/genesis.json
 
 ## --- NÓS
 
-### inicializa os nós na rede 
+### inicializar os nós na rede 
 > no 2o terminal  
 
 $ cd /root  
@@ -165,7 +165,7 @@ $ geth init genesis.json --datadir ~/padoin2
 
 
 
-### coloca os nós da rede para rodar 
+### colocar os nós da rede para rodar 
 
 > no 2o terminal 
 
@@ -201,7 +201,9 @@ $ net.peerCount
 ### visualizar informações sobre os pares
 $ admin.peers
 
-### conferir - genesis e head ainda são os mesmos
+### visualizar informações sobre os nós  
+> genesis e head ainda são os mesmos  
+
 $ admin.nodeInfo
  
 
@@ -227,9 +229,12 @@ $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 ## --- MINERAR
 
 ### iniciar mineração 
-> 10 indica a quantidade de threads  
 
 $ miner.start(10)
+
+> 10 indica a quantidade de threads  
+> verificar o saldo enquanto minera para poder efetivar uma transferência
+
 
 ### parar mineração
 $ miner.stop()
