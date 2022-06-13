@@ -226,12 +226,12 @@ $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
 ## --- MINERAR
 
-### minerar 
+### iniciar mineração 
 > 10 indica a quantidade de threads  
 
 $ miner.start(10)
 
-### para mineração
+### parar mineração
 $ miner.stop()
 
 ### verificar o sado - conferir os ganhos da mineração
@@ -269,10 +269,11 @@ $ txpool.status
 >      }  
 
 
-### minerar - 10 indica qtde threads
+### iniciar mineração 
 $ miner.start(10)
 
-### stop miner
+
+### parar miner
 $ miner.stop()
 
 
@@ -286,7 +287,7 @@ $ txpool.status
 
 
 ### verificar o novo saldo das contas
-$ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")
+$ eth.getBalance("0xd1a2DdAd9d9Da721ADa7eE7d67731C5cFFd37434")  
 $ eth.getBalance("0xF7EFc9DdA6CfEd205af4FD8fEf225cC61912fa7D")
 
 
