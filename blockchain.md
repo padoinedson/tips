@@ -321,3 +321,13 @@ $ docker rm ethereum-node
 
 
 
+Ref:  
+> https://geth.ethereum.org/docs/getting-started/private-net
+
+
+ 
+
+
+> ## Dicas blockchain
+> Padoin, Edson Luiz  
+> padoin@unijui.edu.br
