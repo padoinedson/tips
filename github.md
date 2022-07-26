@@ -58,7 +58,7 @@ $ sudo apt install ssh
 
 > substitua `seu-login-no-git-hub` pelo seu `login` no github  
 
-$ ssh-keygen -t ed25519 -C "seu-login-no-git-hub@github.com"
+$ ssh-keygen -t ed25519 -C "seu-login-no-github@github.com"
 
 $ eval ` "$(ssh-agent -s)"  `
 
@@ -87,15 +87,15 @@ $ git pull
 
 ## adicionar um arquivo
  
-$ resolva o exercicio no arquivo `ex1-par-seunome.c` e salve dentro da pasta
+$ resolva os exercicios no arquivo e salve dentro da pasta com nome `ex-seunome.c`
 
 $ git status
 
-$ git add `ex1-par-seunome.c`.txt
+$ git add `ex-seunome.c`.txt
 
 $ git status
 
-$ git commit -m "entregando exercicio 1"
+$ git commit -m "entregando exercicio n"
 
 
 
