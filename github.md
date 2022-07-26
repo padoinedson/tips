@@ -28,7 +28,7 @@ $ git clone https://github.com/padoinedson/pp2022.git
 
 ### listar servidor remoto
 
-$ cd sd2022  
+$ cd pp2022  
 $ git remote -v
 
 > origin  https://github.com/padoinedson/pp2022.git (fetch)  
